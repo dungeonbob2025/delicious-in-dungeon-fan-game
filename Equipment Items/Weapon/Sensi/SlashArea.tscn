@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://di6awh2vy6ckk"]
+
+[ext_resource type="Texture2D" uid="uid://b6lxp0fibwcu3" path="res://Asset/7. Weapon/sensi_weapon.png" id="1_husko"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Sensi/SlashArea.gd" id="1_xqvks"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_equcn"]
+atlas = ExtResource("1_husko")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oghvc"]
+atlas = ExtResource("1_husko")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w0ycs"]
+atlas = ExtResource("1_husko")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hgbk"]
+atlas = ExtResource("1_husko")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6ga1k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_equcn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oghvc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w0ycs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5hgbk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_agqbq"]
+size = Vector2(32, 32)
+
+[node name="SlashArea" type="Area2D"]
+collision_layer = 0
+collision_mask = 6
+script = ExtResource("1_xqvks")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6ga1k")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_agqbq")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

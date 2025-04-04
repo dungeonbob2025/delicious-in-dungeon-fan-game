@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://dn1oiporil2bs"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_tuara"]
+[ext_resource type="Texture2D" uid="uid://b5tmxqruswc3w" path="res://Asset/11. Passive Item/Magnet.png" id="2_ljub0"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_x7rl0"]
+
+[sub_resource type="Resource" id="Resource_1s0qm"]
+script = ExtResource("3_x7rl0")
+description = "Increase Magnet Range 50%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.5
+
+[sub_resource type="Resource" id="Resource_vv8nm"]
+script = ExtResource("3_x7rl0")
+description = "Increase Magnet Range 50%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.5
+
+[sub_resource type="Resource" id="Resource_c0cht"]
+script = ExtResource("3_x7rl0")
+description = "Increase Magnet Range 50%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.5
+
+[resource]
+script = ExtResource("1_tuara")
+upgrades = Array[ExtResource("3_x7rl0")]([SubResource("Resource_1s0qm"), SubResource("Resource_vv8nm"), SubResource("Resource_c0cht")])
+title = "Magnet"
+texture = ExtResource("2_ljub0")

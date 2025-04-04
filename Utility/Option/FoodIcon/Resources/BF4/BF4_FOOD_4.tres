@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://cmgxm777sr63o"]
+
+[ext_resource type="Texture2D" uid="uid://di2ck3qhda4k2" path="res://Asset/3. Food/BF4/BF4_FOOD_4.png" id="1_ok8f0"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_rbohr"]
+
+[resource]
+script = ExtResource("2_rbohr")
+food_title = "Tentacle and Kelpie Stew"
+food_texture = ExtResource("1_ok8f0")

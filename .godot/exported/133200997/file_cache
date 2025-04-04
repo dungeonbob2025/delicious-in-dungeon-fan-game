@@ -1,0 +1,75 @@
+res://Enemy/Resources/BF1/scorpion.tres::9088cad114a0b6dd78279984311e8687::1741751084::res://.godot/exported/133200997/export-f794c4bae5a94bba2acb843d2e5be8de-scorpion.res
+res://Enemy/Resources/BF1/slime.tres::ac7ebb25ab6be7d77b28901866c6832b::1741751084::res://.godot/exported/133200997/export-f8af52672fe76d9a569f991322463226-slime.res
+res://Enemy/Resources/BF1/walking_mushroom.tres::b587513cf5e583690144bbe6bf94dcb1::1741751233::res://.godot/exported/133200997/export-9ad2bc44a8b30fa762947ed46e0cef2c-walking_mushroom.res
+res://Enemy/Resources/BF2/basilisk.tres::9e6ebaf0dc8b0124d02c78f7ed3f013b::1743571614::res://.godot/exported/133200997/export-4828f699dc14fd1b7d32a5b02be5ef9a-basilisk.res
+res://Enemy/Resources/BF2/man_eating_plant.tres::e7dd7626850f29631e6bc8a5d0d09c46::1743571614::res://.godot/exported/133200997/export-0feda70f03e07f4bea1cc485f409fbc9-man_eating_plant.res
+res://Enemy/Resources/BF3/crown_bug.tres::3edf03738a576f0b4eeaf755cf7af1cc::1743577591::res://.godot/exported/133200997/export-0ca855758fbba89b4b6d02fd8faf1697-crown_bug.res
+res://Enemy/Resources/BF3/ghost.tres::62e5074180b6d795a68c5dc2463364a8::1743577591::res://.godot/exported/133200997/export-38add0973a03c41af8f5fc1378d562bd-ghost.res
+res://Enemy/Resources/BF3/moving_golden_armor.tres::6af752c008d49baca3c1d65ac7be2849::1743577591::res://.godot/exported/133200997/export-2f9eabd780d64aec9bde57374571e202-moving_golden_armor.res
+res://Enemy/Resources/BF3/treasure_bug.tres::737a85023e5bc243d943ff29ff47736e::1743577591::res://.godot/exported/133200997/export-2e312de17cbb316c994040d585497ea8-treasure_bug.res
+res://Enemy/Resources/BF3/walking_armor.tres::18ebb5b8127fdb0cfc6386591a40eb24::1743577591::res://.godot/exported/133200997/export-382dadc2f81cf442adadd80cd6ee7a51-walking_armor.res
+res://Enemy/Resources/BF4/bladefish.tres::d0a9d6e6da36f622cacf3f3ce119b57c::1743577591::res://.godot/exported/133200997/export-d9f6abaea70bc4ab3f2bf2e797477016-bladefish.res
+res://Enemy/Resources/BF4/kraken.tres::b23a652d77ebfe4f5365cf83d9d1548a::1743577591::res://.godot/exported/133200997/export-13acd5a22f71c85bbf971e2b3df2fb36-kraken.res
+res://Enemy/Resources/BF5/frog.tres::9a675e592b39f46b8dba8af15048999a::1743577591::res://.godot/exported/133200997/export-98cd526917cb8819d19ffed71a64b8d5-frog.res
+res://Enemy/Resources/BF5/red_dragon.tres::706b90255fbb64df3ecfd5244fb60687::1743577607::res://.godot/exported/133200997/export-de2e50d8ccc44961e316a41d40f0be4d-red_dragon.res
+res://Enemy/Enemy.tscn::662ad75b6d3b68a6130162d1ff0db1c5::1743673126::res://.godot/exported/133200997/export-27fe6323443605a8c5c7592bfef44e0f-Enemy.scn
+res://Enemy/Spawner.tscn::2377e90ba8dcacc71e2e3c3a28559f78::1743673126::res://.godot/exported/133200997/export-bdcd1fa11d0385ab3d669135b59ac62a-Spawner.scn
+res://Equipment Items/PassiveItem/Resources/Area.tres::89f5951765afcbd131356b12c4d1acb2::1743519917::res://.godot/exported/133200997/export-d65c4a6db17e987de25757e21eb49455-Area.res
+res://Equipment Items/PassiveItem/Resources/Critical_Damage.tres::4e3b3e421c12e8b7202b46ee6479050a::1743519917::res://.godot/exported/133200997/export-43c91ed4cf6882adfa1d0cc4857415ff-Critical_Damage.res
+res://Equipment Items/PassiveItem/Resources/Magnet.tres::2a2d6eefec916d73b6576f5724b9506c::1743519928::res://.godot/exported/133200997/export-b851ba827f9b40aeb6ebafc99d3a3077-Magnet.res
+res://Equipment Items/PassiveItem/Resources/Normal_Damage.tres::63ce89edadec5580c4040977eebb210a::1743518910::res://.godot/exported/133200997/export-e2181c7cc593f63253be28c34e26c1c8-Normal_Damage.res
+res://Equipment Items/PassiveItem/Resources/Speed.tres::74813ca42af83002d7760c5488c96284::1743607253::res://.godot/exported/133200997/export-5ea92e01e14926e4d52797b3d2d3f06e-Speed.res
+res://Equipment Items/PassiveItem/Resources/XP_growth.tres::01cc3d4a3b58bf88fea0366b6aa89247::1743434097::res://.godot/exported/133200997/export-1a7509e202f90a3a17384c90baaa05dd-XP_growth.res
+res://Equipment Items/PassiveItem/PassiveSlot.tscn::b0ed38369a539d96001b2b1433f1c532::1742279114::res://.godot/exported/133200997/export-08d7f689fdc2ce0db43e427c9d5be940-PassiveSlot.scn
+res://Equipment Items/Special Weapon/Laios/Resources/LaiosSpecialWeapon.tres::066d79d9431d377811fe011dc7187db9::1743517979::res://.godot/exported/133200997/export-5865716a4a1da7f7dbe0ddf34144a2fc-LaiosSpecialWeapon.res
+res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.tscn::566e8ea1c716b052304e79996f570feb::1742279114::res://.godot/exported/133200997/export-2ca61f9801e0541ad5646876a944ba61-MonsterBodySlam.scn
+res://Equipment Items/Special Weapon/Marcille/Resources/MarcilleSpecialWeapon.tres::0dc22368e6aa5f649afcef729469e16c::1743518392::res://.godot/exported/133200997/export-411964b1a08906b0485fadfb018752d1-MarcilleSpecialWeapon.res
+res://Equipment Items/Special Weapon/Marcille/Explosion.tscn::a49636615acbdeda81f7cf2abb33d32e::1742102605::res://.godot/exported/133200997/export-6af7256606cfa45ecb987db436c2d9fb-Explosion.scn
+res://Equipment Items/Special Weapon/SpecialWeaponSlot.tscn::a716db712488bc094aa86cb7f23abfd9::1743514199::res://.godot/exported/133200997/export-bb0c1c34c3ead2931758eb15a33a9051-SpecialWeaponSlot.scn
+res://Equipment Items/Weapon/Chilchuck/Resources/ChilchuckWeapon.tres::6315c8b4c4e516c81768a90aa20a1986::1743592652::res://.godot/exported/133200997/export-984e35ea4fa5eb82c67ff470cfebcdbb-ChilchuckWeapon.res
+res://Equipment Items/Weapon/Chilchuck/Arrow.tscn::de92cb788acbe9d17d87f5089f258f40::1743673126::res://.godot/exported/133200997/export-250a488070b4ec4d24cf62a26646164f-Arrow.scn
+res://Equipment Items/Weapon/Laios/Resources/LaiosWeapon.tres::79851cb4fe952cdf3d4682ab0a813006::1743592652::res://.godot/exported/133200997/export-8a4877080285528ddafb1674da7f1d38-LaiosWeapon.res
+res://Equipment Items/Weapon/Laios/SlashArea.tscn::c61df73f4148352ed3fbb888d826abf9::1743514199::res://.godot/exported/133200997/export-2782cd7e8677fc617d2c1e786cc5a9ce-SlashArea.scn
+res://Equipment Items/Weapon/Marcille/Resources/MarcilleWeapon.tres::6c412833b384c6720d63931ed6d7fccb::1743609103::res://.godot/exported/133200997/export-ddaf7662289501efb3b879d9c872ae46-MarcilleWeapon.res
+res://Equipment Items/Weapon/Marcille/Projectile.tscn::cfe8e8b806bf5d457f8e8a23fec277bc::1743514199::res://.godot/exported/133200997/export-6952b11a397cf01ef5e4c76cac0fbf09-Projectile.scn
+res://Equipment Items/Weapon/Sensi/Resources/SensiWeapon.tres::d29bf8c45f6e70eb2dafd9a1c2463c56::1743606752::res://.godot/exported/133200997/export-53c8681a213633cf1af8d7366beeb7c3-SensiWeapon.res
+res://Equipment Items/Weapon/Sensi/SlashArea.tscn::45bec73be7a3a35446fc4e25621020ae::1743516380::res://.godot/exported/133200997/export-5ccac4f197e7f985ccbc71c19e43dbc6-SlashArea.scn
+res://Equipment Items/Weapon/DamagePopUp.tscn::f2eab5a5435cae3a30cced12911bbc74::1743673126::res://.godot/exported/133200997/export-521ce3fb2aed677442abdb462cba94e7-DamagePopUp.scn
+res://Equipment Items/Weapon/Slot.tscn::45807c66492e69ddf8d2271703c6bab5::1742279114::res://.godot/exported/133200997/export-fef583f60d4c4c345c3e4852c817687b-Slot.scn
+res://MainMenu/MainMenu.tscn::9e8863952b854d16a80b31533c6e88aa::1743673126::res://.godot/exported/133200997/export-bc43d44b4a3cb1e05881b15b869d237a-MainMenu.scn
+res://PickUp Items/Resources/Coins/GoldCoin.tres::41cc7e7788a3fa6c5a97411a39912960::1742661565::res://.godot/exported/133200997/export-bad4e3fe86355027dc6a6fb7130a588b-GoldCoin.res
+res://PickUp Items/Resources/Coins/SilverCoin.tres::fcd9c1cfa59e4b5af233b2b72c7e616c::1742661565::res://.godot/exported/133200997/export-1163559420179e35a6dc4a10096c57ef-SilverCoin.res
+res://PickUp Items/Pickups.tscn::f67933d8e148a63e352a0c63d2474acc::1742103682::res://.godot/exported/133200997/export-624c0297c8685977188b3630a74e7c63-Pickups.scn
+res://Player/Resources/1_LaiosCharacter.tres::98d64a0fd98ee64fb61606c528b62910::1743592652::res://.godot/exported/133200997/export-b376471fada1d08579d39a319560edbd-1_LaiosCharacter.res
+res://Player/Resources/2_MarcilleCharacter.tres::971a4e486a96d75e4b00c2faca3ed0a8::1743592652::res://.godot/exported/133200997/export-8a2d6887c9abaab57709518fa290b906-2_MarcilleCharacter.res
+res://Player/Resources/3_ChilchuckCharacter.tres::4774ba31a91c191e7213e87cd412c9bf::1743592652::res://.godot/exported/133200997/export-04b230d5d893aa37e343618a6de9591d-3_ChilchuckCharacter.res
+res://Player/Resources/4_SensiCharacter.tres::c53b78dca1bf2c86a8bf8efdf71780e8::1743592652::res://.godot/exported/133200997/export-0c037f192a667266c2aad5f10cb38614-4_SensiCharacter.res
+res://Player/CharacterSlot.tscn::222292d82b57e0b3ddfe5ce875227cff::1743407204::res://.godot/exported/133200997/export-23d081a1a0520d2038eb2968b9e79edc-CharacterSlot.scn
+res://Player/Player.tscn::bf38d92d3b851bf72265bd2a04df65eb::1743673291::res://.godot/exported/133200997/export-48b487cb3fbab0e0d627d8f8de2ba1d9-Player.scn
+res://Shader/EnemyShader/Elite_Monster_Rainbow_Outline.tres::6bc174458107a91890b618831ca92860::1740911431::res://.godot/exported/133200997/export-42c702e3f4bcf89e94b65d789bfd2686-Elite_Monster_Rainbow_Outline.res
+res://Shader/StageShader/Background_BF1.tres::1fd11d74075e87454f2b98f9456eb4f6::1743673117::res://.godot/exported/133200997/export-e1080e9d10c1ffc3d67719ef200a0439-Background_BF1.res
+res://Shader/Weapon/SpecialWeapon.tres::42d391ad4aef02fb819ed4dce5b675c2::1743428950::res://.godot/exported/133200997/export-0da6a7894d74e9d1cfdd2e441f12574d-SpecialWeapon.res
+res://Stage/Background_BF1.tscn::33bd4663ed18db21063e92d0eedbd5fa::1742102605::res://.godot/exported/133200997/export-fa8c07cae9166c72caaf86f4b1c92483-Background_BF1.scn
+res://Stage/Background_BF2.tscn::a16394e1b9606ef32f2b6dc554f1a652::1742102605::res://.godot/exported/133200997/export-11e74397eeb85636b7b78173897af8df-Background_BF2.scn
+res://Stage/Background_BF3.tscn::3cad2b2b8288d76cef8be67a97256e5a::1742102605::res://.godot/exported/133200997/export-6525a1acbaa15b0a138dd9116857e916-Background_BF3.scn
+res://Stage/Background_BF4.tscn::869741943f26c7ffae1e089a8c0f4cf9::1742102673::res://.godot/exported/133200997/export-0e58fafe2bf8a63b5491fded235559e8-Background_BF4.scn
+res://Stage/Background_BF5.tscn::2871717c070e0b43b0a69c730de8483d::1742191283::res://.godot/exported/133200997/export-9a9e5fa914737d71417914c27d579b51-Background_BF5.scn
+res://Stage/Stage.tscn::35805ed628a7e93404fc3d770741d91c::1743673126::res://.godot/exported/133200997/export-d1dc9e17ebc92793df551a61c6676ca5-Stage.scn
+res://Utility/Option/FoodIcon/Resources/BF1/BF1_FOOD_1.tres::1d6d26013d3be27ca16d2c6bab6dcdc0::1742456551::res://.godot/exported/133200997/export-235f4bbee9c149f2b7d52e96d31c90e6-BF1_FOOD_1.res
+res://Utility/Option/FoodIcon/Resources/BF2/BF2_FOOD_1.tres::19a90968d9f28e725d346dbfb17d2041::1742456605::res://.godot/exported/133200997/export-5fe88fc5ebe4aa8a44528c8ddd36774f-BF2_FOOD_1.res
+res://Utility/Option/FoodIcon/Resources/BF2/BF2_FOOD_2.tres::e1af5f0d7797d2ef0ac76de681f79739::1742456648::res://.godot/exported/133200997/export-bcb19eb590107da56e6e364e9f0b01f0-BF2_FOOD_2.res
+res://Utility/Option/FoodIcon/Resources/BF2/BF2_FOOD_3.tres::3bbc3c70922ea2f29bc4b3216a1773f4::1742456918::res://.godot/exported/133200997/export-14ee075b84fdde23ba1adee3b2117c92-BF2_FOOD_3.res
+res://Utility/Option/FoodIcon/Resources/BF2/BF2_FOOD_4.tres::25bce8a93029caab880c4c35f8303ba3::1742456944::res://.godot/exported/133200997/export-71908460d92d7c6455bfdd032e115cea-BF2_FOOD_4.res
+res://Utility/Option/FoodIcon/Resources/BF3/BF3_FOOD_1.tres::930a47b2926def8e49924bea0a43ab3d::1742456976::res://.godot/exported/133200997/export-adbe858e26b005c4fd627a4eb4132155-BF3_FOOD_1.res
+res://Utility/Option/FoodIcon/Resources/BF3/BF3_FOOD_2.tres::f4f4c858e01d69841a6e26c02080859b::1742457000::res://.godot/exported/133200997/export-dba0f15a792c3942a239e61e33a2bead-BF3_FOOD_2.res
+res://Utility/Option/FoodIcon/Resources/BF3/BF3_FOOD_3.tres::6dd96cc4327e2e9433ec542d573554f3::1742457030::res://.godot/exported/133200997/export-f77cb57317476ff582d50482c5c26f3d-BF3_FOOD_3.res
+res://Utility/Option/FoodIcon/Resources/BF3/BF3_FOOD_4.tres::8d34bfc00236ffaf53119d368a5a0c2b::1742457058::res://.godot/exported/133200997/export-e2c84543b5e87f8363d8a1f9976b9e13-BF3_FOOD_4.res
+res://Utility/Option/FoodIcon/Resources/BF4/BF4_FOOD_1.tres::c5d29d94aef5af870988197584cbeac5::1742457120::res://.godot/exported/133200997/export-a9629ab176b4e3fb4642f2e82236d6eb-BF4_FOOD_1.res
+res://Utility/Option/FoodIcon/Resources/BF4/BF4_FOOD_2.tres::6862bc26de200f3869ece6dfc8c20c56::1742457140::res://.godot/exported/133200997/export-f8274b719b6e8828266e18e71d7cbbab-BF4_FOOD_2.res
+res://Utility/Option/FoodIcon/Resources/BF4/BF4_FOOD_3.tres::7a9018a3c5524f5c647d16bef60ab91a::1742457164::res://.godot/exported/133200997/export-1133d25865ff9dae65c92f2d53e7297b-BF4_FOOD_3.res
+res://Utility/Option/FoodIcon/Resources/BF4/BF4_FOOD_4.tres::c7bfd0518fcafe2591173c557d3c562f::1742457189::res://.godot/exported/133200997/export-7e20556ef8f0b75d6f4b9ff116d7c947-BF4_FOOD_4.res
+res://Utility/Option/FoodIcon/Resources/BF5/BF5_FOOD_1.tres::c28227f4de47e565430af97b876575b4::1742457242::res://.godot/exported/133200997/export-0ba846405fe40a10102871812f1271d2-BF5_FOOD_1.res
+res://Utility/Option/FoodIcon/Resources/BF5/BF5_FOOD_2.tres::1437f070a8a27b1df61fdf68a921a556::1742457270::res://.godot/exported/133200997/export-ef0ebe31b19ab7bd5c76b849dfd06a4e-BF5_FOOD_2.res
+res://Utility/Option/OptionSlot.tscn::276846d7eabd45bc48c7710652a1032e::1743514199::res://.godot/exported/133200997/export-e02c7f4f31c3c4a6e066df35551caf76-OptionSlot.scn
+res://Utility/Persistence/Persistence.tscn::f52d4b6d111489ed34b26eb9a9ace17a::1743514199::res://.godot/exported/133200997/export-8666b45e774c567bb86b550ddf776c47-Persistence.scn
+res://Utility/SoundManager/SoundManager.tscn::45a20e75638f13f908b4596453bb4e0a::1743673126::res://.godot/exported/133200997/export-8953df5dd370c474d76a703f31c6140f-SoundManager.scn

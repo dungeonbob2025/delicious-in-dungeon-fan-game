@@ -1,0 +1,13 @@
+res://Player/Player.tscn
+res://Equipment Items/Special Weapon/SpecialWeaponSlot.gd
+res://Shader/Weapon/SpecialWeapon.gdshader
+res://Shader/StageShader/Background_BF1.tres
+res://Shader/StageShader/Background_BF1.gdshader
+res://Stage/Stage.tscn
+res://Equipment Items/Weapon/Chilchuck/Arrow.tscn
+res://Utility/SoundManager/SoundManager.tscn
+res://MainMenu/MainMenu.tscn
+res://Enemy/Enemy.tscn
+res://Enemy/Spawner.tscn
+res://Equipment Items/Weapon/DamagePopUp.tscn
+res://Stage/Stage.gd

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Character" load_steps=6 format=3 uid="uid://mmuobt28anwk"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="1_fkwpq"]
+[ext_resource type="Texture2D" uid="uid://cct6q3ewhqn84" path="res://Asset/4. Character/Marcille Donato/marcille_full.png" id="2_2adhm"]
+[ext_resource type="Script" path="res://Player/Resources/Character.gd" id="3_3maoj"]
+[ext_resource type="Resource" uid="uid://ccwr7k37vaxgk" path="res://Equipment Items/Weapon/Marcille/Resources/MarcilleWeapon.tres" id="4_2p5cn"]
+
+[sub_resource type="Resource" id="Resource_kdk85"]
+script = ExtResource("1_fkwpq")
+description = ""
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("3_3maoj")
+character_title = "Marcille"
+character_icon = ExtResource("2_2adhm")
+character_description = "Spinning fire projectile."
+animation_name = ""
+base_stats = SubResource("Resource_kdk85")
+starting_weapon = ExtResource("4_2p5cn")

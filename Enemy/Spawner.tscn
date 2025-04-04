@@ -1,0 +1,85 @@
+[gd_scene load_steps=21 format=3 uid="uid://cevr0k3lwrpfp"]
+
+[ext_resource type="Script" path="res://Enemy/Spawner.gd" id="1_bl2wo"]
+[ext_resource type="FontFile" uid="uid://ceodpvgjntrsf" path="res://Asset/6. Font/DOSGothic.ttf" id="1_rxjq8"]
+[ext_resource type="PackedScene" uid="uid://cm7jmiof4hdxx" path="res://Enemy/Enemy.tscn" id="2_ctqua"]
+[ext_resource type="Resource" uid="uid://df2xnxf1x3q7" path="res://Enemy/Resources/BF1/slime.tres" id="3_3lc3s"]
+[ext_resource type="Resource" uid="uid://cm40oh5t2qcdc" path="res://Enemy/Resources/BF1/walking_mushroom.tres" id="4_13m2s"]
+[ext_resource type="Resource" uid="uid://loacmp04feh5" path="res://Enemy/Resources/BF1/scorpion.tres" id="5_ihatb"]
+[ext_resource type="Resource" uid="uid://b46ju5h5at8kf" path="res://Enemy/Resources/BF2/man_eating_plant.tres" id="6_ckwc3"]
+[ext_resource type="Resource" uid="uid://bt4n11i1a64yd" path="res://Enemy/Resources/BF2/basilisk.tres" id="7_bm8pe"]
+[ext_resource type="Resource" uid="uid://c2oj5tjg6ddcm" path="res://Enemy/Resources/BF3/walking_armor.tres" id="8_tlqed"]
+[ext_resource type="Resource" uid="uid://cv42kx30hiob7" path="res://Enemy/Resources/BF3/treasure_bug.tres" id="9_evpcs"]
+[ext_resource type="Resource" uid="uid://s8tt5cdcd26x" path="res://Enemy/Resources/BF3/crown_bug.tres" id="10_reb32"]
+[ext_resource type="Resource" uid="uid://b5x1nld0q0a0o" path="res://Enemy/Resources/BF3/ghost.tres" id="11_c1civ"]
+[ext_resource type="Resource" uid="uid://6rxmt47561s7" path="res://Enemy/Resources/BF3/moving_golden_armor.tres" id="12_iktkr"]
+[ext_resource type="Resource" uid="uid://crp83g7nw4ehf" path="res://Enemy/Resources/BF4/bladefish.tres" id="13_rnjia"]
+[ext_resource type="Resource" uid="uid://c57mjnnwiyaxf" path="res://Enemy/Resources/BF4/kraken.tres" id="14_p0s30"]
+[ext_resource type="Resource" uid="uid://s5pqv2y7rsmy" path="res://Enemy/Resources/BF5/frog.tres" id="15_5qtp6"]
+[ext_resource type="Resource" uid="uid://rv7bpoe8efwc" path="res://Enemy/Resources/BF5/red_dragon.tres" id="16_11u4e"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tsvuw"]
+font = ExtResource("1_rxjq8")
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_vll43"]
+font = ExtResource("1_rxjq8")
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_6udgs"]
+font = ExtResource("1_rxjq8")
+font_size = 32
+
+[node name="Spawner" type="Node2D"]
+script = ExtResource("1_bl2wo")
+enemy = ExtResource("2_ctqua")
+enemy_properties_BF1 = Array[Resource("res://Enemy/Resources/EnemyProperty.gd")]([ExtResource("3_3lc3s"), ExtResource("4_13m2s"), ExtResource("5_ihatb")])
+enemy_properties_BF2 = Array[Resource("res://Enemy/Resources/EnemyProperty.gd")]([ExtResource("6_ckwc3"), ExtResource("7_bm8pe")])
+enemy_properties_BF3 = Array[Resource("res://Enemy/Resources/EnemyProperty.gd")]([ExtResource("8_tlqed"), ExtResource("9_evpcs"), ExtResource("10_reb32"), ExtResource("11_c1civ"), ExtResource("12_iktkr")])
+enemy_properties_BF4 = Array[Resource("res://Enemy/Resources/EnemyProperty.gd")]([ExtResource("13_rnjia"), ExtResource("14_p0s30")])
+enemy_properties_BF5 = Array[Resource("res://Enemy/Resources/EnemyProperty.gd")]([ExtResource("15_5qtp6"), ExtResource("16_11u4e")])
+
+[node name="UI_CountDown" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI_CountDown"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -44.0
+offset_top = 40.0
+offset_right = 44.0
+offset_bottom = 80.0
+grow_horizontal = 2
+
+[node name="UI_CountDown_Minute" type="Label" parent="UI_CountDown/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "10
+"
+label_settings = SubResource("LabelSettings_tsvuw")
+
+[node name="Label" type="Label" parent="UI_CountDown/HBoxContainer"]
+layout_mode = 2
+text = ":"
+label_settings = SubResource("LabelSettings_vll43")
+
+[node name="UI_CountDown_Second" type="Label" parent="UI_CountDown/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "00"
+label_settings = SubResource("LabelSettings_6udgs")
+
+[node name="Timer_NormalSpawn" type="Timer" parent="."]
+autostart = true
+
+[node name="Timer_PatternNormalSpawn" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="Timer_EliteSpawn" type="Timer" parent="."]
+wait_time = 15.0
+autostart = true
+
+[connection signal="timeout" from="Timer_NormalSpawn" to="." method="_on_timer_normal_spawn_timeout"]
+[connection signal="timeout" from="Timer_PatternNormalSpawn" to="." method="_on_timer_pattern_normal_spawn_timeout"]
+[connection signal="timeout" from="Timer_EliteSpawn" to="." method="_on_timer_elite_spawn_timeout"]

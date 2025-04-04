@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://bjshk0h83ajwh"]
+
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Laios/SlashArea.gd" id="1_vupr2"]
+[ext_resource type="Texture2D" uid="uid://dxajbvomv75lc" path="res://Asset/7. Weapon/laios_weapon.png" id="1_xnuh7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlsrp"]
+atlas = ExtResource("1_xnuh7")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nht86"]
+atlas = ExtResource("1_xnuh7")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w17w1"]
+atlas = ExtResource("1_xnuh7")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rf6v0"]
+atlas = ExtResource("1_xnuh7")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ookb3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlsrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nht86")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w17w1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rf6v0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ote81"]
+radius = 64.0
+
+[node name="SlashArea" type="Area2D"]
+collision_layer = 0
+collision_mask = 6
+script = ExtResource("1_vupr2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_ookb3")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ote81")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://ys0evksxx3kj"]
+
+[ext_resource type="Texture2D" uid="uid://bu735rkgoqiki" path="res://Asset/3. Food/BF4/BF4_FOOD_3.png" id="1_mocbe"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_cbhqy"]
+
+[resource]
+script = ExtResource("2_cbhqy")
+food_title = "Porridge"
+food_texture = ExtResource("1_mocbe")

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MarcilleSpecialWeapon" load_steps=5 format=3 uid="uid://ihujmhnpdvn6"]
+
+[ext_resource type="PackedScene" uid="uid://chwkpb2fivev" path="res://Equipment Items/Special Weapon/Marcille/Explosion.tscn" id="1_2opdj"]
+[ext_resource type="PackedScene" uid="uid://chr7oyrwevqtr" path="res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.tscn" id="1_tycuf"]
+[ext_resource type="Script" path="res://Equipment Items/Special Weapon/Marcille/MarcilleSpecialWeapon.gd" id="2_o74y7"]
+[ext_resource type="Texture2D" uid="uid://60uekvb63ytw" path="res://Asset/4. Character/Marcille Donato/marcille_cropped.png" id="3_vdghj"]
+
+[resource]
+script = ExtResource("2_o74y7")
+select_button = "KEY_Q"
+damage = 20.0
+description = "Burns all nearby to ashes"
+marcille_special_attack_node = ExtResource("1_2opdj")
+laios_special_attack_node = ExtResource("1_tycuf")
+title = "MarcilleSpecialWeapon"
+texture = ExtResource("3_vdghj")

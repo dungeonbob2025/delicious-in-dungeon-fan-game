@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=4 format=3 uid="uid://cv42kx30hiob7"]
+
+[ext_resource type="Script" path="res://Enemy/Resources/EnemyProperty.gd" id="1_ksxmb"]
+[ext_resource type="Resource" uid="uid://b2ubdtk8ocdsw" path="res://PickUp Items/Resources/Coins/SilverCoin.tres" id="2_0x8cs"]
+[ext_resource type="Texture2D" uid="uid://bbvspbk1gmbmk" path="res://Asset/2. Enemy/BF3/treasure_bug-pixel.png" id="2_gkcc0"]
+
+[resource]
+script = ExtResource("1_ksxmb")
+title = "treasure_bug"
+texture = ExtResource("2_gkcc0")
+health = 20.0
+damage = 4.0
+width = 64.0
+height = 64.0
+drops = Array[Resource("res://PickUp Items/Resources/PickupItemResource.gd")]([ExtResource("2_0x8cs")])

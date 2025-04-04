@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcku74gb8vual"]
+
+[ext_resource type="Script" path="res://Equipment Items/Special Weapon/SpecialWeaponSlot.gd" id="1_afpxq"]
+
+[node name="SpecialWeaponSlot" type="PanelContainer"]
+script = ExtResource("1_afpxq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5

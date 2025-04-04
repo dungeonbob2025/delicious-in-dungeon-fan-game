@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=4 format=3 uid="uid://c57mjnnwiyaxf"]
+
+[ext_resource type="Script" path="res://Enemy/Resources/EnemyProperty.gd" id="1_t4qnw"]
+[ext_resource type="Texture2D" uid="uid://css8pp28wo14t" path="res://Asset/2. Enemy/BF4/kraken-pixel.png" id="2_d751a"]
+[ext_resource type="Resource" uid="uid://dyw35bsx4jwpe" path="res://PickUp Items/Resources/Coins/GoldCoin.tres" id="2_qdy3g"]
+
+[resource]
+script = ExtResource("1_t4qnw")
+title = "kraken"
+texture = ExtResource("2_d751a")
+health = 350.0
+damage = 10.0
+width = 256.0
+height = 128.0
+drops = Array[Resource("res://PickUp Items/Resources/PickupItemResource.gd")]([ExtResource("2_qdy3g")])

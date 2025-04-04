@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=5 format=3 uid="uid://loacmp04feh5"]
+
+[ext_resource type="Script" uid="uid://bctg3nw3ekxqm" path="res://Enemy/Resources/EnemyProperty.gd" id="1_8pyvb"]
+[ext_resource type="Script" uid="uid://j1d2ujl4027t" path="res://PickUp Items/Resources/PickupItemResource.gd" id="1_c12b7"]
+[ext_resource type="Texture2D" uid="uid://cb5hoe8v1i7wc" path="res://Asset/2. Enemy/BF1/scorpion-pixel.png" id="2_nef3i"]
+[ext_resource type="Resource" uid="uid://b2ubdtk8ocdsw" path="res://PickUp Items/Resources/Coins/SilverCoin.tres" id="2_qtxqg"]
+
+[resource]
+script = ExtResource("1_8pyvb")
+title = "scorpion"
+texture = ExtResource("2_nef3i")
+health = 10.0
+damage = 5.0
+width = 64.0
+height = 64.0
+drops = Array[ExtResource("1_c12b7")]([ExtResource("2_qtxqg")])

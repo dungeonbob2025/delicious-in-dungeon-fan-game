@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=4 format=3 uid="uid://b5x1nld0q0a0o"]
+
+[ext_resource type="Script" path="res://Enemy/Resources/EnemyProperty.gd" id="1_7i2wh"]
+[ext_resource type="Texture2D" uid="uid://dsklep86woygh" path="res://Asset/2. Enemy/BF3/ghost-pixel.png" id="2_gqqpw"]
+[ext_resource type="Resource" uid="uid://dyw35bsx4jwpe" path="res://PickUp Items/Resources/Coins/GoldCoin.tres" id="2_qjl2f"]
+
+[resource]
+script = ExtResource("1_7i2wh")
+title = "ghost"
+texture = ExtResource("2_gqqpw")
+health = 225.0
+damage = 10.0
+width = 64.0
+height = 64.0
+drops = Array[Resource("res://PickUp Items/Resources/PickupItemResource.gd")]([ExtResource("2_qjl2f")])

@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8d6pkadcpl4u"]
+
+[ext_resource type="Script" path="res://Player/CharacterSlot.gd" id="1_7tyfm"]
+
+[node name="CharacterSlot" type="Panel"]
+custom_minimum_size = Vector2(203, 307)
+script = ExtResource("1_7tyfm")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+custom_minimum_size = Vector2(203, 307)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Line2D_Select" type="Line2D" parent="."]
+visible = false
+points = PackedVector2Array(5, 5, 198, 5, 198, 302, 5, 302)
+closed = true
+default_color = Color(1, 0.745098, 0, 1)
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

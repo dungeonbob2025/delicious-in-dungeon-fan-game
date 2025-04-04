@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="ArrowShot" load_steps=13 format=3 uid="uid://dtebdgqha06eq"]
+
+[ext_resource type="PackedScene" uid="uid://n7bpnysm0wtj" path="res://Equipment Items/Weapon/Chilchuck/Arrow.tscn" id="1_irsrk"]
+[ext_resource type="PackedScene" uid="uid://c4t5gee7u01o5" path="res://Equipment Items/Weapon/Marcille/Projectile.tscn" id="1_vl305"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Chilchuck/ArrowShot.gd" id="2_eiceg"]
+[ext_resource type="PackedScene" uid="uid://bjshk0h83ajwh" path="res://Equipment Items/Weapon/Laios/SlashArea.tscn" id="2_n63rd"]
+[ext_resource type="Texture2D" uid="uid://dcmmvdw16ms53" path="res://Asset/4. Character/ChilChuk/chilchuk_cropped.png" id="3_ht5oj"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Weapon Upgrades/ArrowUpgrade.gd" id="5_fe1q8"]
+[ext_resource type="PackedScene" uid="uid://di6awh2vy6ckk" path="res://Equipment Items/Weapon/Sensi/SlashArea.tscn" id="5_yr4us"]
+
+[sub_resource type="Resource" id="Resource_0v3cj"]
+script = ExtResource("5_fe1q8")
+speed = 1.0
+damage = 1.0
+cooldown = 1.0
+description = "Team up with Chilchuck!"
+
+[sub_resource type="Resource" id="Resource_dnspa"]
+script = ExtResource("5_fe1q8")
+speed = 1.2
+damage = 1.4
+cooldown = 1.0
+description = "Damage +40%, Speed +20%"
+
+[sub_resource type="Resource" id="Resource_4jtpn"]
+script = ExtResource("5_fe1q8")
+speed = 1.0
+damage = 1.4
+cooldown = 0.9
+description = "Damage +40%, Cooldown -10%"
+
+[sub_resource type="Resource" id="Resource_4nprg"]
+script = ExtResource("5_fe1q8")
+speed = 1.2
+damage = 1.4
+cooldown = 1.0
+description = "Damage +40%, Speed +20%"
+
+[sub_resource type="Resource" id="Resource_s2f0t"]
+script = ExtResource("5_fe1q8")
+speed = 1.0
+damage = 1.4
+cooldown = 0.9
+description = "Damage +40%, Cooldown -10%"
+
+[resource]
+script = ExtResource("2_eiceg")
+damage = 8.0
+cooldown = 0.6
+speed = 300.0
+marcille_projectile_node = ExtResource("1_vl305")
+chilchuck_projectile_node = ExtResource("1_irsrk")
+laios_projectile_node = ExtResource("2_n63rd")
+sensi_projectile_node = ExtResource("5_yr4us")
+upgrades = Array[Resource("res://Equipment Items/Weapon/Weapon Upgrades/Upgrade.gd")]([SubResource("Resource_0v3cj"), SubResource("Resource_dnspa"), SubResource("Resource_4jtpn"), SubResource("Resource_4nprg"), SubResource("Resource_s2f0t")])
+title = "ChilchuckWeapon"
+texture = ExtResource("3_ht5oj")

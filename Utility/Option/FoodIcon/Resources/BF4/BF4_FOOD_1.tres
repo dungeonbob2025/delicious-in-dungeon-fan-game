@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://do62vmn4v3mfc"]
+
+[ext_resource type="Texture2D" uid="uid://18fcfo8i015p" path="res://Asset/3. Food/BF4/BF4_FOOD_1.png" id="1_xjkr8"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_ffv8k"]
+
+[resource]
+script = ExtResource("2_ffv8k")
+food_title = "Grilled and Kabayaki Giant Parasite"
+food_texture = ExtResource("1_xjkr8")

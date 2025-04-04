@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://c25j11p4ouhe6"]
+
+[ext_resource type="Texture2D" uid="uid://c4arvkfh1wftm" path="res://Asset/3. Food/BF5/BF5_FOOD_2.png" id="1_aqjrc"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_2yltw"]
+
+[resource]
+script = ExtResource("2_2yltw")
+food_title = "Tentacle Gnocchi"
+food_texture = ExtResource("1_aqjrc")

@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://ox8ipmck0av2"
+path="res://.godot/imported/map_BF1.png-e40e0bc5dbf2d65bd6f4821d8ae30335.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Asset/8. Background/BF1_map/Result/map_BF1.png"
+dest_files=["res://.godot/imported/map_BF1.png-e40e0bc5dbf2d65bd6f4821d8ae30335.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

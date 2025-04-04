@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://bmdl8c7mod5cw"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_abtkh"]
+[ext_resource type="Texture2D" uid="uid://db6sapncgjk0" path="res://Asset/11. Passive Item/XP_Growth.png" id="2_dn2v5"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_ljpqn"]
+
+[sub_resource type="Resource" id="Resource_8sai7"]
+script = ExtResource("3_ljpqn")
+description = "XP Growth 15%"
+XP_growth_stats = 1.15
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_iubqd"]
+script = ExtResource("3_ljpqn")
+description = "XP Growth 15%"
+XP_growth_stats = 1.15
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_ql3eh"]
+script = ExtResource("3_ljpqn")
+description = "XP Growth 15%"
+XP_growth_stats = 1.15
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("1_abtkh")
+upgrades = Array[ExtResource("3_ljpqn")]([SubResource("Resource_8sai7"), SubResource("Resource_iubqd"), SubResource("Resource_ql3eh")])
+title = "XP_growth"
+texture = ExtResource("2_dn2v5")

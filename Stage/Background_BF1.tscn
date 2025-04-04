@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://b56hcpxi4u81a"]
+
+[ext_resource type="Texture2D" uid="uid://cm35qxdx4wxdp" path="res://Asset/8. Background/BF1_map/Result/BF1_map.png" id="1_wxa40"]
+
+[sub_resource type="Gradient" id="Gradient_3mxex"]
+offsets = PackedFloat32Array(0.0855263, 1)
+colors = PackedColorArray(0.804743, 0.804743, 0.804743, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_qb74i"]
+gradient = SubResource("Gradient_3mxex")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.712963, 1)
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="PointLight2D4" type="PointLight2D" parent="."]
+position = Vector2(961, 639)
+energy = 0.75
+range_layer_min = -100
+texture = SubResource("GradientTexture2D_qb74i")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(33, 33)
+energy = 0.75
+range_layer_min = -100
+texture = SubResource("GradientTexture2D_qb74i")
+
+[node name="PointLight2D2" type="PointLight2D" parent="."]
+position = Vector2(223, 669)
+energy = 0.75
+range_layer_min = -100
+texture = SubResource("GradientTexture2D_qb74i")
+
+[node name="PointLight2D3" type="PointLight2D" parent="."]
+position = Vector2(761, 183)
+energy = 0.75
+range_layer_min = -100
+texture = SubResource("GradientTexture2D_qb74i")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1024, 768)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+modulate = Color(0.733881, 0.545517, 0.379329, 1)
+texture_repeat = 2
+texture = ExtResource("1_wxa40")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 1024, 768)

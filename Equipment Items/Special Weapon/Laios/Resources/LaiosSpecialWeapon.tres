@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="LaiosSpecialWeapon" load_steps=5 format=3 uid="uid://ry7j52gf4ybe"]
+
+[ext_resource type="PackedScene" uid="uid://chr7oyrwevqtr" path="res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.tscn" id="1_5h0uq"]
+[ext_resource type="PackedScene" uid="uid://chwkpb2fivev" path="res://Equipment Items/Special Weapon/Marcille/Explosion.tscn" id="2_1var2"]
+[ext_resource type="Script" path="res://Equipment Items/Special Weapon/Laios/LaiosSpecialWeapon.gd" id="3_lbwdw"]
+[ext_resource type="Texture2D" uid="uid://25uxqgxlvywp" path="res://Asset/4. Character/Laios Touden/laios_cropped.png" id="4_u2v3l"]
+
+[resource]
+script = ExtResource("3_lbwdw")
+select_button = "KEY_W"
+damage = 50.0
+description = "A massive monster strikes the ground.."
+marcille_special_attack_node = ExtResource("2_1var2")
+laios_special_attack_node = ExtResource("1_5h0uq")
+title = "LaiosSpecialWeapon"
+texture = ExtResource("4_u2v3l")

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://qq3wbqdt112y"]
+
+[ext_resource type="Texture2D" uid="uid://dx5234yuuwmmh" path="res://Asset/3. Food/BF3/BF3_FOOD_3.png" id="1_0ee7i"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_0javi"]
+
+[resource]
+script = ExtResource("2_0javi")
+food_title = "Living Armor Course"
+food_texture = ExtResource("1_0ee7i")

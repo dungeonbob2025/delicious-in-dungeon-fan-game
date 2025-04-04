@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Coin" load_steps=4 format=3 uid="uid://b2ubdtk8ocdsw"]
+
+[ext_resource type="Texture2D" uid="uid://xdjbp33s4pav" path="res://Asset/9. PickUp Items/SilverCoin.png" id="1_4l8kg"]
+[ext_resource type="Script" path="res://PickUp Items/Resources/Coin.gd" id="2_0teig"]
+[ext_resource type="AudioStream" uid="uid://c2r64kp1fqwdf" path="res://Asset/5. Audio/Coin.wav" id="3_1s8wo"]
+
+[resource]
+script = ExtResource("2_0teig")
+XP = 3.0
+title = "SilverCoin"
+icon = ExtResource("1_4l8kg")
+description = "Silver Coin. 3XP."
+sound = ExtResource("3_1s8wo")

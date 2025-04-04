@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Character" load_steps=6 format=3 uid="uid://ehih7dx2mw0v"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="1_i1yf4"]
+[ext_resource type="Texture2D" uid="uid://blxppebk3tvd5" path="res://Asset/4. Character/ChilChuk/chilchuk_full.png" id="2_bspld"]
+[ext_resource type="Script" path="res://Player/Resources/Character.gd" id="3_smt4x"]
+[ext_resource type="Resource" uid="uid://dtebdgqha06eq" path="res://Equipment Items/Weapon/Chilchuck/Resources/ChilchuckWeapon.tres" id="4_4qbkb"]
+
+[sub_resource type="Resource" id="Resource_fnh6v"]
+script = ExtResource("1_i1yf4")
+description = ""
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("3_smt4x")
+character_title = "Chilchuck"
+character_icon = ExtResource("2_bspld")
+character_description = "Ranged arrow attack."
+animation_name = ""
+base_stats = SubResource("Resource_fnh6v")
+starting_weapon = ExtResource("4_4qbkb")

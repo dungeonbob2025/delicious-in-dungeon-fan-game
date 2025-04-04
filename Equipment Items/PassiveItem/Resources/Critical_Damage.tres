@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://cvx61lp6wipw8"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_mk8mm"]
+[ext_resource type="Texture2D" uid="uid://ce0mwashqrrrb" path="res://Asset/11. Passive Item/Critical.png" id="2_7xucg"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_wniwd"]
+
+[sub_resource type="Resource" id="Resource_rhwb5"]
+script = ExtResource("3_wniwd")
+description = "Critical Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.2
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_habos"]
+script = ExtResource("3_wniwd")
+description = "Critical Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.2
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_s1w22"]
+script = ExtResource("3_wniwd")
+description = "Critical Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.2
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("1_mk8mm")
+upgrades = Array[ExtResource("3_wniwd")]([SubResource("Resource_rhwb5"), SubResource("Resource_habos"), SubResource("Resource_s1w22")])
+title = "Critical Damage"
+texture = ExtResource("2_7xucg")

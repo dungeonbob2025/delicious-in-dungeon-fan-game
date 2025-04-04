@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://r46hydfbjydy"]
+
+[ext_resource type="Shader" path="res://Shader/Weapon/SpecialWeapon.gdshader" id="1_lr15r"]
+
+[resource]
+shader = ExtResource("1_lr15r")
+shader_parameter/Line_Smoothness = 0.045
+shader_parameter/Line_Width = 0.09
+shader_parameter/Brightness = 3.0
+shader_parameter/Rotation_deg = 30.0
+shader_parameter/Distortion = 1.8
+shader_parameter/Speed = 0.7
+shader_parameter/Position = 0.0
+shader_parameter/Position_Min = 0.25
+shader_parameter/Position_Max = 0.5
+shader_parameter/Alpha = 1.0
+shader_parameter/horizontal_influence = 0.5
+shader_parameter/vertical_influence = 0.0

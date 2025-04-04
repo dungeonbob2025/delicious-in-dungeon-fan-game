@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://crdiwj4bj87xb"]
+
+[ext_resource type="Texture2D" uid="uid://cj0ctp6xgkrfo" path="res://Asset/3. Food/BF2/BF2_FOOD_4.png" id="1_prn2b"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_rdxgl"]
+
+[resource]
+script = ExtResource("2_rdxgl")
+food_title = "Roast Basilisk"
+food_texture = ExtResource("1_prn2b")

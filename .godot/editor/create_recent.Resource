@@ -1,0 +1,8 @@
+PassiveItem
+FoodIcon
+Character
+LaiosSpecialWeapon
+MarcilleSpecialWeapon
+Axe
+Sword
+Circular

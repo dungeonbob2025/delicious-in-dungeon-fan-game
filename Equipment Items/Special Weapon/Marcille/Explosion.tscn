@@ -1,0 +1,90 @@
+[gd_scene load_steps=11 format=3 uid="uid://chwkpb2fivev"]
+
+[ext_resource type="Script" path="res://Equipment Items/Special Weapon/Marcille/Explosion.gd" id="1_jl78u"]
+[ext_resource type="Texture2D" uid="uid://b8llrr5djyfap" path="res://Asset/7. Weapon/marcille_special_weapon.png" id="2_bbt2g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmgrg"]
+atlas = ExtResource("2_bbt2g")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ftlc4"]
+atlas = ExtResource("2_bbt2g")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42lou"]
+atlas = ExtResource("2_bbt2g")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eko3g"]
+atlas = ExtResource("2_bbt2g")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mkku2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmgrg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ftlc4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42lou")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eko3g")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2debg"]
+radius = 16.0
+
+[sub_resource type="Animation" id="Animation_hyhys"]
+resource_name = "Expansion"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.01, 0.01), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oof27"]
+_data = {
+"Expansion": SubResource("Animation_hyhys")
+}
+
+[node name="Explosion" type="Area2D"]
+scale = Vector2(8, 8)
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_jl78u")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_mkku2")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2debg")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_oof27")
+}
+autoplay = "Expansion"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

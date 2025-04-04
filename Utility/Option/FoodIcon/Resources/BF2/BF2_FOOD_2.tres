@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://d4kydf2w26pt8"]
+
+[ext_resource type="Texture2D" uid="uid://biycs7dgls1a2" path="res://Asset/3. Food/BF2/BF2_FOOD_2.png" id="1_6t6mx"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_g6fgp"]
+
+[resource]
+script = ExtResource("2_g6fgp")
+food_title = "Mandrake Kakiage and Giant Bat Tempura"
+food_texture = ExtResource("1_6t6mx")

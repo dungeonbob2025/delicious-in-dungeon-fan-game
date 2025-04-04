@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://bgpg03kqwltph"]
+
+[ext_resource type="Texture2D" uid="uid://vlm2mllg21m0" path="res://Asset/3. Food/BF2/BF2_FOOD_1.png" id="1_0vlxv"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_2mq5v"]
+
+[resource]
+script = ExtResource("2_2mq5v")
+food_title = "Mandrake and Basilisk Omelet"
+food_texture = ExtResource("1_0vlxv")

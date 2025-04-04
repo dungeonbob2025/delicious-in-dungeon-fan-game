@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://cxmrhidmxanxm"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_eghmg"]
+[ext_resource type="Texture2D" uid="uid://cj67k1d2xxrf4" path="res://Asset/11. Passive Item/Normal.png" id="2_r8oou"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_0woga"]
+
+[sub_resource type="Resource" id="Resource_wdtqn"]
+script = ExtResource("3_0woga")
+description = "Normal Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.2
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_1ntpj"]
+script = ExtResource("3_0woga")
+description = "Normal Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.2
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_bermj"]
+script = ExtResource("3_0woga")
+description = "Normal Damage 20% Increase"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.2
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("1_eghmg")
+upgrades = Array[ExtResource("3_0woga")]([SubResource("Resource_wdtqn"), SubResource("Resource_1ntpj"), SubResource("Resource_bermj")])
+title = "Normal_Damage"
+texture = ExtResource("2_r8oou")

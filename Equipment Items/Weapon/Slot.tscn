@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgjcn60aw7k1t"]
+
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Slot.gd" id="1_tvegk"]
+
+[node name="Slot" type="PanelContainer"]
+script = ExtResource("1_tvegk")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Timer_Cooldown" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer_Cooldown" to="." method="_on_timer_cooldown_timeout"]

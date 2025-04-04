@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=5 format=3 uid="uid://cm40oh5t2qcdc"]
+
+[ext_resource type="Script" uid="uid://bctg3nw3ekxqm" path="res://Enemy/Resources/EnemyProperty.gd" id="1_taat5"]
+[ext_resource type="Script" uid="uid://j1d2ujl4027t" path="res://PickUp Items/Resources/PickupItemResource.gd" id="1_tmso4"]
+[ext_resource type="Texture2D" uid="uid://dvfhguhihfqts" path="res://Asset/2. Enemy/BF1/walking_mushroom-pixel.png" id="2_hpcvr"]
+[ext_resource type="Resource" uid="uid://b2ubdtk8ocdsw" path="res://PickUp Items/Resources/Coins/SilverCoin.tres" id="2_q45dh"]
+
+[resource]
+script = ExtResource("1_taat5")
+title = "walking_mushroom"
+texture = ExtResource("2_hpcvr")
+health = 10.0
+damage = 5.0
+width = 64.0
+height = 64.0
+drops = Array[ExtResource("1_tmso4")]([ExtResource("2_q45dh")])

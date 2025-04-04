@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://ggaydsxboqmy"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_1geew"]
+[ext_resource type="Texture2D" uid="uid://cnld38avrcvc0" path="res://Asset/11. Passive Item/Area.png" id="2_johi6"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_ntouv"]
+
+[sub_resource type="Resource" id="Resource_larvh"]
+script = ExtResource("3_ntouv")
+description = "Increase Area 30%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.3
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_avs13"]
+script = ExtResource("3_ntouv")
+description = "Increase Area 30%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.3
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_06j1a"]
+script = ExtResource("3_ntouv")
+description = "Increase Area 30%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.3
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("1_1geew")
+upgrades = Array[ExtResource("3_ntouv")]([SubResource("Resource_larvh"), SubResource("Resource_avs13"), SubResource("Resource_06j1a")])
+title = "Area"
+texture = ExtResource("2_johi6")

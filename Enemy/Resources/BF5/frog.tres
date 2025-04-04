@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=4 format=3 uid="uid://s5pqv2y7rsmy"]
+
+[ext_resource type="Script" path="res://Enemy/Resources/EnemyProperty.gd" id="1_kctqy"]
+[ext_resource type="Resource" uid="uid://b2ubdtk8ocdsw" path="res://PickUp Items/Resources/Coins/SilverCoin.tres" id="2_0tgex"]
+[ext_resource type="Texture2D" uid="uid://1esxi4kjlu70" path="res://Asset/2. Enemy/BF5/frog-pixel.png" id="2_prgto"]
+
+[resource]
+script = ExtResource("1_kctqy")
+title = "frog"
+texture = ExtResource("2_prgto")
+health = 80.0
+damage = 10.0
+width = 64.0
+height = 64.0
+drops = Array[Resource("res://PickUp Items/Resources/PickupItemResource.gd")]([ExtResource("2_0tgex")])

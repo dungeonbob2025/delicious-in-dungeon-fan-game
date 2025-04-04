@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://b8ql145cg1mmg"]
+
+[ext_resource type="Texture2D" uid="uid://dhoxhv34650l1" path="res://Asset/3. Food/BF3/BF3_FOOD_2.png" id="1_kodi3"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_bfotg"]
+
+[resource]
+script = ExtResource("2_bfotg")
+food_title = "Exorcism Sorbet"
+food_texture = ExtResource("1_kodi3")

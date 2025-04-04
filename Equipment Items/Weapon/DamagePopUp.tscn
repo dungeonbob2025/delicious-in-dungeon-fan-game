@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://duicl1lgru2bb"]
+
+[ext_resource type="Script" path="res://Equipment Items/Weapon/DamagePopUp.gd" id="1_7a0xj"]
+[ext_resource type="FontFile" uid="uid://ceodpvgjntrsf" path="res://Asset/6. Font/DOSGothic.ttf" id="1_mghlt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_13jlq"]
+font = ExtResource("1_mghlt")
+font_color = Color(0.693827, 0, 0.149555, 1)
+outline_size = 2
+outline_color = Color(1, 1, 0, 1)
+
+[node name="DamagePopUp" type="Label"]
+offset_left = -32.0
+offset_top = -8.0
+offset_right = 32.0
+offset_bottom = 8.0
+pivot_offset = Vector2(32, 8)
+text = "0
+"
+label_settings = SubResource("LabelSettings_13jlq")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_7a0xj")

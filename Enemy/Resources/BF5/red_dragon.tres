@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=3 format=3 uid="uid://rv7bpoe8efwc"]
+
+[ext_resource type="Script" path="res://Enemy/Resources/EnemyProperty.gd" id="1_75pjr"]
+[ext_resource type="Texture2D" uid="uid://ckdr1un20qd70" path="res://Asset/2. Enemy/BF5/red_dragon-pixel.png" id="2_4o8y0"]
+
+[resource]
+script = ExtResource("1_75pjr")
+title = "red_dragon"
+texture = ExtResource("2_4o8y0")
+health = 400.0
+damage = 10.0
+width = 512.0
+height = 256.0
+drops = Array[Resource("res://PickUp Items/Resources/PickupItemResource.gd")]([])

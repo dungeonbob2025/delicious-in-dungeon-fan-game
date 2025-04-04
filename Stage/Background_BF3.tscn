@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cexisu4xgsed0"]
+
+[ext_resource type="Texture2D" uid="uid://dx4q1uswj1krl" path="res://Asset/8. Background/BF3_map/Result/BF3_map.png" id="1_yvt2p"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1024, 768)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+modulate = Color(0.502957, 0.48812, 0.585091, 1)
+texture_repeat = 2
+texture = ExtResource("1_yvt2p")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 1024, 768)

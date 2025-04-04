@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="Sword" load_steps=13 format=3 uid="uid://b4qu1chdfhibl"]
+
+[ext_resource type="PackedScene" uid="uid://n7bpnysm0wtj" path="res://Equipment Items/Weapon/Chilchuck/Arrow.tscn" id="1_fd8s0"]
+[ext_resource type="PackedScene" uid="uid://bjshk0h83ajwh" path="res://Equipment Items/Weapon/Laios/SlashArea.tscn" id="2_qp3al"]
+[ext_resource type="PackedScene" uid="uid://c4t5gee7u01o5" path="res://Equipment Items/Weapon/Marcille/Projectile.tscn" id="3_x4fng"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Laios/Sword.gd" id="4_tme0c"]
+[ext_resource type="PackedScene" uid="uid://di6awh2vy6ckk" path="res://Equipment Items/Weapon/Sensi/SlashArea.tscn" id="5_28h7w"]
+[ext_resource type="Texture2D" uid="uid://25uxqgxlvywp" path="res://Asset/4. Character/Laios Touden/laios_cropped.png" id="5_sqjqo"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Weapon Upgrades/SwordUpgrade.gd" id="7_o3mxy"]
+
+[sub_resource type="Resource" id="Resource_kjfpt"]
+script = ExtResource("7_o3mxy")
+radius = 1.0
+damage = 1.0
+cooldown = 1.0
+description = "Team up with Laios!"
+
+[sub_resource type="Resource" id="Resource_8i36x"]
+script = ExtResource("7_o3mxy")
+radius = 1.4
+damage = 1.4
+cooldown = 1.0
+description = "Damage +40%, Range +40%"
+
+[sub_resource type="Resource" id="Resource_7thjx"]
+script = ExtResource("7_o3mxy")
+radius = 1.0
+damage = 1.4
+cooldown = 0.9
+description = "Damage +40%, CoolDown -10%"
+
+[sub_resource type="Resource" id="Resource_8i6f6"]
+script = ExtResource("7_o3mxy")
+radius = 1.4
+damage = 1.4
+cooldown = 1.0
+description = "Damage +40%, Range +40%"
+
+[sub_resource type="Resource" id="Resource_5sodx"]
+script = ExtResource("7_o3mxy")
+radius = 1.0
+damage = 1.4
+cooldown = 0.9
+description = "Damage +40%, CoolDown -10%"
+
+[resource]
+script = ExtResource("4_tme0c")
+radius = 128
+damage = 10.0
+cooldown = 1.0
+speed = 0.0
+marcille_projectile_node = ExtResource("3_x4fng")
+chilchuck_projectile_node = ExtResource("1_fd8s0")
+laios_projectile_node = ExtResource("2_qp3al")
+sensi_projectile_node = ExtResource("5_28h7w")
+upgrades = Array[Resource("res://Equipment Items/Weapon/Weapon Upgrades/Upgrade.gd")]([SubResource("Resource_kjfpt"), SubResource("Resource_8i36x"), SubResource("Resource_7thjx"), SubResource("Resource_8i6f6"), SubResource("Resource_5sodx")])
+title = "LaiosWeapon"
+texture = ExtResource("5_sqjqo")

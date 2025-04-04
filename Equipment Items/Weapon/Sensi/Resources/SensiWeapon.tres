@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="Axe" load_steps=13 format=3 uid="uid://drhljl3a465bu"]
+
+[ext_resource type="PackedScene" uid="uid://n7bpnysm0wtj" path="res://Equipment Items/Weapon/Chilchuck/Arrow.tscn" id="1_r80ys"]
+[ext_resource type="PackedScene" uid="uid://bjshk0h83ajwh" path="res://Equipment Items/Weapon/Laios/SlashArea.tscn" id="2_dfmre"]
+[ext_resource type="PackedScene" uid="uid://c4t5gee7u01o5" path="res://Equipment Items/Weapon/Marcille/Projectile.tscn" id="3_22d60"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Sensi/Axe.gd" id="4_gl2df"]
+[ext_resource type="PackedScene" uid="uid://di6awh2vy6ckk" path="res://Equipment Items/Weapon/Sensi/SlashArea.tscn" id="5_no41b"]
+[ext_resource type="Texture2D" uid="uid://dmgulg3m2rvqn" path="res://Asset/4. Character/Sensi/sensi_cropped.png" id="6_7espe"]
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Weapon Upgrades/AxeUpgrade.gd" id="7_wrrhu"]
+
+[sub_resource type="Resource" id="Resource_wo5ji"]
+script = ExtResource("7_wrrhu")
+radius = 1.0
+damage = 1.0
+cooldown = 1.0
+description = "Team up with Sensi!"
+
+[sub_resource type="Resource" id="Resource_bsey3"]
+script = ExtResource("7_wrrhu")
+radius = 1.5
+damage = 1.5
+cooldown = 1.0
+description = "Damage +50%, Radius +50%"
+
+[sub_resource type="Resource" id="Resource_vf3q1"]
+script = ExtResource("7_wrrhu")
+radius = 1.0
+damage = 1.5
+cooldown = 0.8
+description = "Damage +50%, Cooldown -20%"
+
+[sub_resource type="Resource" id="Resource_sr1go"]
+script = ExtResource("7_wrrhu")
+radius = 1.5
+damage = 1.5
+cooldown = 1.0
+description = "Damage +50%, Radius +50%"
+
+[sub_resource type="Resource" id="Resource_m43p3"]
+script = ExtResource("7_wrrhu")
+radius = 1.0
+damage = 1.5
+cooldown = 0.8
+description = "Damage +50%, Cooldown -20%"
+
+[resource]
+script = ExtResource("4_gl2df")
+radius = 128
+damage = 15.0
+cooldown = 2.0
+speed = 0.0
+marcille_projectile_node = ExtResource("3_22d60")
+chilchuck_projectile_node = ExtResource("1_r80ys")
+laios_projectile_node = ExtResource("2_dfmre")
+sensi_projectile_node = ExtResource("5_no41b")
+upgrades = Array[Resource("res://Equipment Items/Weapon/Weapon Upgrades/Upgrade.gd")]([SubResource("Resource_wo5ji"), SubResource("Resource_bsey3"), SubResource("Resource_vf3q1"), SubResource("Resource_sr1go"), SubResource("Resource_m43p3")])
+title = "SensiWeapon"
+texture = ExtResource("6_7espe")

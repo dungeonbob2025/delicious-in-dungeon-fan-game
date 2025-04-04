@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyProperty" load_steps=5 format=3 uid="uid://df2xnxf1x3q7"]
+
+[ext_resource type="Script" uid="uid://bctg3nw3ekxqm" path="res://Enemy/Resources/EnemyProperty.gd" id="1_i25fv"]
+[ext_resource type="Script" uid="uid://j1d2ujl4027t" path="res://PickUp Items/Resources/PickupItemResource.gd" id="1_sck33"]
+[ext_resource type="Texture2D" uid="uid://d3wjxf7p7e0kn" path="res://Asset/2. Enemy/BF1/slime-pixel.png" id="2_8b128"]
+[ext_resource type="Resource" uid="uid://b2ubdtk8ocdsw" path="res://PickUp Items/Resources/Coins/SilverCoin.tres" id="2_cg3aq"]
+
+[resource]
+script = ExtResource("1_i25fv")
+title = "slime"
+texture = ExtResource("2_8b128")
+health = 10.0
+damage = 5.0
+width = 64.0
+height = 64.0
+drops = Array[ExtResource("1_sck33")]([ExtResource("2_cg3aq")])

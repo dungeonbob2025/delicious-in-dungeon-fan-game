@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://n7bpnysm0wtj"]
+
+[ext_resource type="Script" path="res://Equipment Items/Weapon/Chilchuck/Arrow.gd" id="1_fi7s6"]
+[ext_resource type="Texture2D" uid="uid://cbo74hndwcvmv" path="res://Asset/7. Weapon/chilchuk_weapon.png" id="2_ptwvx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwih2"]
+atlas = ExtResource("2_ptwvx")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jclaj"]
+atlas = ExtResource("2_ptwvx")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sqpt5"]
+atlas = ExtResource("2_ptwvx")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4jrc"]
+atlas = ExtResource("2_ptwvx")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mcx56"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwih2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jclaj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sqpt5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4jrc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vi81s"]
+
+[node name="Arrow" type="Area2D"]
+collision_layer = 0
+collision_mask = 6
+script = ExtResource("1_fi7s6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_mcx56")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_vi81s")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

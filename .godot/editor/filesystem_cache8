@@ -1,0 +1,379 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1743673324
+export_presets.cfg::TextFile::-1::1743610358::0::1::::<><>::
+::res://Asset/::1741593529
+::res://Asset/1. Title Image/::1741753576
+title.png::CompressedTexture2D::1526959838630550270::1740729849::1741753576::1::::<><>::
+::res://Asset/2. Enemy/::1741753576
+test_enemy.png::CompressedTexture2D::5530198863632229566::1740889504::1741753576::1::::<><>::
+::res://Asset/2. Enemy/BF1/::1741753576
+scorpion-pixel.png::CompressedTexture2D::4905411825771248686::1740729957::1741753576::1::::<><>::
+slime-pixel.png::CompressedTexture2D::9170553822503208389::1740729992::1741753576::1::::<><>::
+walking_mushroom-pixel.png::CompressedTexture2D::8643986451614763952::1740726103::1741753576::1::::<><>::
+::res://Asset/2. Enemy/BF2/::1741753576
+basilisk-pixel.png::CompressedTexture2D::5399781133016455298::1740730005::1741753576::1::::<><>::
+man_eating_plant-pixel.png::CompressedTexture2D::122176068349120865::1740725999::1741753576::1::::<><>::
+::res://Asset/2. Enemy/BF3/::1741753576
+crown_bug-pixel.png::CompressedTexture2D::5027052877258309049::1740730018::1741753576::1::::<><>::
+ghost-pixel.png::CompressedTexture2D::8443980884467808163::1740730032::1741753576::1::::<><>::
+moving_armor-pixel.png::CompressedTexture2D::8908671200334843143::1740726011::1741753576::1::::<><>::
+moving_golden_armor-pixel.png::CompressedTexture2D::4217956956562838293::1740726024::1741753576::1::::<><>::
+treasure_bug-pixel.png::CompressedTexture2D::2501081222105965094::1740726091::1741753576::1::::<><>::
+::res://Asset/2. Enemy/BF4/::1741753576
+bladefish-pixel.png::CompressedTexture2D::6678695219993166057::1740730048::1741753576::1::::<><>::
+kraken-pixel.png::CompressedTexture2D::6075430631203048837::1740725983::1741753576::1::::<><>::
+::res://Asset/2. Enemy/BF5/::1741753576
+frog-pixel.png::CompressedTexture2D::1834301890187657105::1740730061::1741753576::1::::<><>::
+red_dragon-pixel.png::CompressedTexture2D::5482002628357521045::1740726048::1741753576::1::::<><>::
+::res://Asset/3. Food/::1742658249
+Boundary.png::CompressedTexture2D::6457882576074603186::1742455471::1742455477::1::::<><>::
+NameTag.png::CompressedTexture2D::6262305529321282413::1742658248::1742658249::1::::<><>::
+::res://Asset/3. Food/BF1/::1743597810
+BF1_FOOD_1.png::CompressedTexture2D::2080091960946454820::1742399814::1743597810::1::::<><>::
+::res://Asset/3. Food/BF2/::1743597819
+BF2_FOOD_1.png::CompressedTexture2D::1497451339823917041::1742399838::1743597814::1::::<><>::
+BF2_FOOD_2.png::CompressedTexture2D::2997631762840283459::1742399853::1743597816::1::::<><>::
+BF2_FOOD_3.png::CompressedTexture2D::4773573226791529578::1742399870::1743597817::1::::<><>::
+BF2_FOOD_4.png::CompressedTexture2D::5456306604842348620::1742399884::1743597819::1::::<><>::
+::res://Asset/3. Food/BF3/::1743597828
+BF3_FOOD_1.png::CompressedTexture2D::5997194082368982121::1742399901::1743597823::1::::<><>::
+BF3_FOOD_2.png::CompressedTexture2D::7680895384098468468::1742399914::1743597825::1::::<><>::
+BF3_FOOD_3.png::CompressedTexture2D::8837227709598647231::1742399928::1743597827::1::::<><>::
+BF3_FOOD_4.png::CompressedTexture2D::8379827225959700124::1742399942::1743597828::1::::<><>::
+::res://Asset/3. Food/BF4/::1743597836
+BF4_FOOD_1.png::CompressedTexture2D::1893341842779542619::1742399962::1743597831::1::::<><>::
+BF4_FOOD_2.png::CompressedTexture2D::2847980646228436918::1742399984::1743597833::1::::<><>::
+BF4_FOOD_3.png::CompressedTexture2D::3858012202835225756::1742400002::1743597834::1::::<><>::
+BF4_FOOD_4.png::CompressedTexture2D::7776651787160523635::1742400015::1743597836::1::::<><>::
+::res://Asset/3. Food/BF5/::1743597841
+BF5_FOOD_1.png::CompressedTexture2D::3953237742676118195::1742400031::1743597839::1::::<><>::
+BF5_FOOD_2.png::CompressedTexture2D::6809388056749361302::1742400047::1743597841::1::::<><>::
+::res://Asset/4. Character/::1740730305
+::res://Asset/4. Character/ChilChuk/::1743421435
+chilchuk_cropped.png::CompressedTexture2D::7325178569768274160::1740731054::1741753576::1::::<><>::
+chilchuk_full.png::CompressedTexture2D::3206916405985650352::1740730960::1741753576::1::::<><>::
+::res://Asset/4. Character/Laios Touden/::1741753576
+laios_cropped.png::CompressedTexture2D::1958286374666806675::1740731151::1741753576::1::::<><>::
+laios_full.png::CompressedTexture2D::6658187276042890688::1740730700::1741753576::1::::<><>::
+::res://Asset/4. Character/Marcille Donato/::1741753576
+marcille_cropped.png::CompressedTexture2D::2228685637423832108::1740731219::1741753576::1::::<><>::
+marcille_full.png::CompressedTexture2D::4954354509310241763::1740730726::1741753576::1::::<><>::
+::res://Asset/4. Character/Marcille Donato/Sprite/::1740748162
+::res://Asset/4. Character/Marcille Donato/Sprite/IDLE/::1741753576
+marcille_idle.png::CompressedTexture2D::9134887694709540583::1740476377::1741753576::1::::<><>::
+::res://Asset/4. Character/Marcille Donato/Sprite/IDLE/BACKUP/::1741753576
+1 (copy).png::CompressedTexture2D::3536622148674699367::1740463752::1741753576::1::::<><>::
+1.png::CompressedTexture2D::4023319444671459456::1740463529::1741753576::1::::<><>::
+2 (copy).png::CompressedTexture2D::5158050809802654715::1740463765::1741753576::1::::<><>::
+2.png::CompressedTexture2D::7230021946727658292::1740463645::1741753576::1::::<><>::
+3 (copy).png::CompressedTexture2D::4802017872502284592::1740463775::1741753576::1::::<><>::
+3.png::CompressedTexture2D::3561657099125034002::1740463718::1741753576::1::::<><>::
+origina_1.png::CompressedTexture2D::220483921046155606::1740463403::1741753576::1::::<><>::
+spritesheet.png::CompressedTexture2D::7243667475579236727::1740463807::1741753576::1::::<><>::
+test_1.png::CompressedTexture2D::7606024230220283962::1740459754::1741753576::1::::<><>::
+::res://Asset/4. Character/Marcille Donato/Sprite/RUNNING/::1741753576
+marcille_running.png::CompressedTexture2D::971498033351528671::1740476573::1741753576::1::::<><>::
+::res://Asset/4. Character/Marcille Donato/Sprite/RUNNING/BACKUP/::1741753576
+1-removebg-preview.png::CompressedTexture2D::7851237285372895361::1740468214::1741753576::1::::<><>::
+1.png::CompressedTexture2D::7807694708713626313::1740465167::1741753576::1::::<><>::
+2-removebg-preview.png::CompressedTexture2D::1169148173718904451::1740468228::1741753576::1::::<><>::
+2.png::CompressedTexture2D::6979974862384380975::1740467006::1741753576::1::::<><>::
+3-removebg-preview.png::CompressedTexture2D::531116047667143626::1740468279::1741753576::1::::<><>::
+3.png::CompressedTexture2D::8240399402605573525::1740467461::1741753576::1::::<><>::
+4-removebg-preview.png::CompressedTexture2D::3951799268509903046::1740468293::1741753576::1::::<><>::
+4.png::CompressedTexture2D::7934022526229271367::1740468077::1741753576::1::::<><>::
+spritesheet.png::CompressedTexture2D::886842031652322690::1740468358::1741753576::1::::<><>::
+::res://Asset/4. Character/Sensi/::1741753576
+sensi_cropped.png::CompressedTexture2D::8015148783824957241::1740731251::1741753576::1::::<><>::
+sensi_full.png::CompressedTexture2D::3921633882229871038::1740730781::1741753576::1::::<><>::
+::res://Asset/5. Audio/::1743525864
+background.mp3::AudioStreamMP3::7773179678836896418::1743520360::1743523171::1::::<><>::
+button_click.mp3::AudioStreamMP3::8904247792527309608::1743520318::1743520956::1::::<><>::
+Coin.wav::AudioStreamWAV::6704969131825319827::1724552815::1741753576::1::::<><>::
+explosion.mp3::AudioStreamMP3::1108723781861519638::1743525837::1743525864::1::::<><>::
+game_over.mp3::AudioStreamMP3::8245511760375943387::1743520155::1743520956::1::::<><>::
+Option.mp3::AudioStreamMP3::4380116112922190140::1743520097::1743521536::1::::<><>::
+stomp.mp3::AudioStreamMP3::1653810052829579782::1743524888::1743524912::1::::<><>::
+win.mp3::AudioStreamMP3::7425905519542804705::1743521410::1743521435::1::::<><>::
+::res://Asset/6. Font/::1741753576
+DOSGothic.ttf::FontFile::5082708081068279093::1651243144::1741753576::1::::<><>::
+::res://Asset/7. Weapon/::1741753576
+chilchuk_weapon.png::CompressedTexture2D::4873926619284557585::1740749698::1741753576::1::::<><>::
+laios_special_weapon.png::CompressedTexture2D::4889515650279801927::1740756844::1741753576::1::::<><>::
+laios_weapon.png::CompressedTexture2D::8774154818675046848::1740754103::1741753576::1::::<><>::
+marcille_special_weapon.png::CompressedTexture2D::4726059863850008915::1740752366::1741753576::1::::<><>::
+marcille_weapon.png::CompressedTexture2D::8117629578140255568::1740750676::1741753576::1::::<><>::
+sensi_weapon.png::CompressedTexture2D::4586407590682427724::1740757992::1741753576::1::::<><>::
+::res://Asset/8. Background/::1742178980
+BF1.png::CompressedTexture2D::6881296691931789556::1566193778::1741753576::1::::<><>::
+BF2.png::CompressedTexture2D::5867026534854811124::1566193696::1741753576::1::::<><>::
+BF3.png::CompressedTexture2D::257145064459410128::1564904396::1741753576::1::::<><>::
+BF4.png::CompressedTexture2D::8861503452578469113::1566193752::1741753576::1::::<><>::
+BF5.png::CompressedTexture2D::1777616223656802311::1566193766::1741753576::1::::<><>::
+::res://Asset/8. Background/BF1_map/::1742019629
+base BF1 (copy).png::CompressedTexture2D::1210602525266740357::1742014206::1742019629::1::::<><>::
+base BF1.png::CompressedTexture2D::9097843698126259037::1742014206::1742019629::1::::<><>::
+Border.png::CompressedTexture2D::5620287127046732178::1742017022::1742019629::1::::<><>::
+Fountain.png::CompressedTexture2D::4308997182752385761::1742013900::1742019629::1::::<><>::
+IconicTile2.png::CompressedTexture2D::7424102343681496423::1742016677::1742019629::1::::<><>::
+IconicTile.png::CompressedTexture2D::8911620339838608435::1742014073::1742019629::1::::<><>::
+LionStatue.png::CompressedTexture2D::3160452365556884072::1742016796::1742019629::1::::<><>::
+MossTile.png::CompressedTexture2D::6000954449412165718::1742016242::1742019629::1::::<><>::
+Pillar.png::CompressedTexture2D::3918292910758629808::1742014399::1742019629::1::::<><>::
+Tile.png::CompressedTexture2D::9043927239141943162::1742016250::1742019629::1::::<><>::
+Wall.png::CompressedTexture2D::1852505474659682206::1742016986::1742019629::1::::<><>::
+::res://Asset/8. Background/BF1_map/Result/::1742046348
+BF1_map.png::CompressedTexture2D::5674761364397863153::1742019318::1742046348::1::::<><>::
+::res://Asset/8. Background/BF2_map/::1742037075
+BigTree.png::CompressedTexture2D::7804531070492334523::1742026426::1742037075::1::::<><>::
+Grass1.png::CompressedTexture2D::8160127452720856325::1742026955::1742037075::1::::<><>::
+Grass2.png::CompressedTexture2D::2600399366080095954::1742027004::1742037075::1::::<><>::
+Grass3.png::CompressedTexture2D::678473740478040330::1742027093::1742037075::1::::<><>::
+Grass4.png::CompressedTexture2D::8242306820266346752::1742027144::1742037075::1::::<><>::
+GrassBed.png::CompressedTexture2D::1684932248520041841::1742025290::1742037075::1::::<><>::
+HorizontalBridge2.png::CompressedTexture2D::12101458612983908::1742027380::1742037075::1::::<><>::
+HorizontalBridge.png::CompressedTexture2D::6362376593066347100::1742027265::1742037075::1::::<><>::
+VerticalBridge2.png::CompressedTexture2D::8705683627635949699::1742027427::1742037075::1::::<><>::
+VerticalBridge.png::CompressedTexture2D::3126728548612111780::1742026411::1742037075::1::::<><>::
+::res://Asset/8. Background/BF2_map/Result/::1742047893
+BF2_map.png::CompressedTexture2D::2707027216101537091::1742047851::1742047893::1::::<><>::
+BF2_Shadow.png::CompressedTexture2D::5543923440380721746::1742042799::1742044103::1::::<><>::
+::res://Asset/8. Background/BF3_map/::1742053573
+Boundary.png::CompressedTexture2D::6698590591700948212::1742051747::1742053573::1::::<><>::
+ColdTile.png::CompressedTexture2D::2153533414952561397::1742050495::1742053573::1::::<><>::
+EmptyHole.png::CompressedTexture2D::717956760872387740::1742053307::1742053573::1::::<><>::
+TerraceBridge.png::CompressedTexture2D::1259579124033890034::1742051484::1742053573::1::::<><>::
+TerraceCeil.png::CompressedTexture2D::2748117357896132905::1742053137::1742053573::1::::<><>::
+TerraceHead.png::CompressedTexture2D::8019854671559594917::1742051373::1742053573::1::::<><>::
+TerracePillar.png::CompressedTexture2D::7926410111579183295::1742051662::1742053573::1::::<><>::
+TerraceSubPillar.png::CompressedTexture2D::6115325602380278550::1742051115::1742053573::1::::<><>::
+::res://Asset/8. Background/BF3_map/Result/::1742053573
+BF3_map.png::CompressedTexture2D::8834491391433694997::1742053486::1742053573::1::::<><>::
+::res://Asset/8. Background/BF4_map/::1742101623
+Fence.png::CompressedTexture2D::2202523132839839692::1742057332::1742060200::1::::<><>::
+FenceVertical.png::CompressedTexture2D::5535591821744243890::1742056558::1742060200::1::::<><>::
+House1.png::CompressedTexture2D::4586577842270124610::1742055741::1742060200::1::::<><>::
+House2.png::CompressedTexture2D::3712004839923257882::1742055855::1742060200::1::::<><>::
+House3.png::CompressedTexture2D::472408944252944417::1742055937::1742060200::1::::<><>::
+House4.png::CompressedTexture2D::8223442537366428078::1742056302::1742060200::1::::<><>::
+Stair.png::CompressedTexture2D::6742103213288896747::1742056966::1742060200::1::::<><>::
+Tile.png::CompressedTexture2D::1484914816402971701::1742056639::1742060200::1::::<><>::
+Wave.png::CompressedTexture2D::5186954449032227154::1742059611::1742101623::1::::<><>::
+::res://Asset/8. Background/BF4_map/Result/::1742060227
+BF4_map.png::CompressedTexture2D::2458203355603150585::1742058541::1742060200::1::::<><>::
+Water_map.png::CompressedTexture2D::2806208139429110610::1742060190::1742060227::1::::<><>::
+::res://Asset/8. Background/BF5_map/::1742179014
+BF5_map_Preview.png::CompressedTexture2D::468243825344391378::1742178513::1742179014::1::::<><>::
+Boundary.png::CompressedTexture2D::4514035841040104552::1742051747::1742179013::1::::<><>::
+Dirts.png::CompressedTexture2D::3642600505541697618::1742178862::1742179013::1::::<><>::
+Fence.png::CompressedTexture2D::7933873776511392874::1742057332::1742179013::1::::<><>::
+FenceVertical.png::CompressedTexture2D::8251599716993790352::1742056558::1742179013::1::::<><>::
+GrassTile.png::CompressedTexture2D::414332762246202105::1742177729::1742179013::1::::<><>::
+RedHouse1.png::CompressedTexture2D::6379638774585291033::1742175996::1742179013::1::::<><>::
+RedHouse2.png::CompressedTexture2D::5273969597155773790::1742175978::1742179013::1::::<><>::
+RedHouse3.png::CompressedTexture2D::2885839077442525133::1742177546::1742179013::1::::<><>::
+RedHouse4.png::CompressedTexture2D::7290880931799584672::1742176361::1742179013::1::::<><>::
+Tile.png::CompressedTexture2D::4044824544936379269::1742175573::1742179013::1::::<><>::
+::res://Asset/8. Background/BF5_map/Result/::1742179815
+BF5_map.png::CompressedTexture2D::2001908214378569350::1742179753::1742179769::1::::<><>::
+BF5_map_Darken.png::CompressedTexture2D::6633484331318454155::1742179753::1742179815::1::::<><>::
+::res://Asset/9. PickUp Items/::1741753576
+GoldCoin.png::CompressedTexture2D::6030900222514129491::1741273456::1741753576::1::::<><>::
+SilverCoin.png::CompressedTexture2D::1621085608067906137::1741273519::1741753576::1::::<><>::
+::res://Asset/10. GUI/::1743398768
+Crying.png::CompressedTexture2D::2229123377284249567::1742350842::1742530022::1::::<><>::
+Crying_Marcille_Stamp.png::CompressedTexture2D::627318766251091242::1742361935::1742361967::1::::<><>::
+Crying_Marcille_Stamp_Outline.png::CompressedTexture2D::4502981862726236072::1742362621::1742362640::1::::<><>::
+Crying_Marcille_Stamp_Outline_White.png::CompressedTexture2D::6698413921422417866::1742362817::1742362844::1::::<><>::
+GUI_Frame.png::CompressedTexture2D::8856558212406191018::1741502364::1741753576::1::::<><>::
+GUI_Panel.png::CompressedTexture2D::4759830315620163525::1741506672::1741753576::1::::<><>::
+HealthBar_Stomach_UIpng.png::CompressedTexture2D::2164461627279942035::1743398746::1743398768::1::::<><>::
+::res://Asset/11. Passive Item/::1743434003
+Area.png::CompressedTexture2D::5708238377430436465::1743430261::1743434003::1::::<><>::
+Critical.png::CompressedTexture2D::5105974105315528559::1743430948::1743434003::1::::<><>::
+Heal.png::CompressedTexture2D::5298042678592738040::1743431522::1743434003::1::::<><>::
+Magnet.png::CompressedTexture2D::4532079714903126374::1743432037::1743434003::1::::<><>::
+Normal.png::CompressedTexture2D::5470498843711855443::1743432823::1743434003::1::::<><>::
+Speed.png::CompressedTexture2D::8545241125638965225::1743433458::1743434003::1::::<><>::
+XP_Growth.png::CompressedTexture2D::214545303499851457::1743433993::1743434003::1::::<><>::
+::res://Enemy/::1743673126
+Enemy.gd::GDScript::-1::1743607752::0::1::::<>CharacterBody2D<>::
+Enemy.tscn::PackedScene::5681735903714533721::1743673126::0::1::::<><>::uid://ck14tj2vi1bw5::::res://Asset/2. Enemy/test_enemy.png<>res://Enemy/Enemy.gd
+Spawner.gd::GDScript::-1::1743597931::0::1::::<>Node2D<>::
+Spawner.tscn::PackedScene::5098026077516139069::1743673126::0::1::::<><>::res://Enemy/Spawner.gd<>uid://ceodpvgjntrsf::::res://Asset/6. Font/DOSGothic.ttf<>uid://cm7jmiof4hdxx::::res://Enemy/Enemy.tscn<>uid://df2xnxf1x3q7::::res://Enemy/Resources/BF1/slime.tres<>uid://cm40oh5t2qcdc::::res://Enemy/Resources/BF1/walking_mushroom.tres<>uid://loacmp04feh5::::res://Enemy/Resources/BF1/scorpion.tres<>uid://b46ju5h5at8kf::::res://Enemy/Resources/BF2/man_eating_plant.tres<>uid://bt4n11i1a64yd::::res://Enemy/Resources/BF2/basilisk.tres<>uid://c2oj5tjg6ddcm::::res://Enemy/Resources/BF3/walking_armor.tres<>uid://cv42kx30hiob7::::res://Enemy/Resources/BF3/treasure_bug.tres<>uid://s8tt5cdcd26x::::res://Enemy/Resources/BF3/crown_bug.tres<>uid://b5x1nld0q0a0o::::res://Enemy/Resources/BF3/ghost.tres<>uid://6rxmt47561s7::::res://Enemy/Resources/BF3/moving_golden_armor.tres<>uid://crp83g7nw4ehf::::res://Enemy/Resources/BF4/bladefish.tres<>uid://c57mjnnwiyaxf::::res://Enemy/Resources/BF4/kraken.tres<>uid://s5pqv2y7rsmy::::res://Enemy/Resources/BF5/frog.tres<>uid://rv7bpoe8efwc::::res://Enemy/Resources/BF5/red_dragon.tres
+__README.txt::TextFile::-1::1741755765::0::1::::<><>::
+::res://Enemy/Resources/::1741755560
+EnemyProperty.gd::GDScript::-1::1741498946::0::1::::EnemyProperty<>Resource<>::
+::res://Enemy/Resources/BF1/::1741751233
+scorpion.tres::Resource/Resource::800982794790111604::1741751084::0::1::::<><>::uid://bctg3nw3ekxqm::::res://Enemy/Resources/EnemyProperty.gd<>uid://j1d2ujl4027t::::res://PickUp Items/Resources/PickupItemResource.gd<>uid://cb5hoe8v1i7wc::::res://Asset/2. Enemy/BF1/scorpion-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+slime.tres::Resource/Resource::222569570345815400::1741751084::0::1::::<><>::uid://bctg3nw3ekxqm::::res://Enemy/Resources/EnemyProperty.gd<>uid://j1d2ujl4027t::::res://PickUp Items/Resources/PickupItemResource.gd<>uid://d3wjxf7p7e0kn::::res://Asset/2. Enemy/BF1/slime-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+walking_mushroom.tres::Resource/Resource::5676517786751723264::1741751233::0::1::::<><>::uid://bctg3nw3ekxqm::::res://Enemy/Resources/EnemyProperty.gd<>uid://j1d2ujl4027t::::res://PickUp Items/Resources/PickupItemResource.gd<>uid://dvfhguhihfqts::::res://Asset/2. Enemy/BF1/walking_mushroom-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+::res://Enemy/Resources/BF2/::1743571614
+basilisk.tres::Resource/Resource::3780712798379054047::1743571614::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://ci6xuu6x3bc15::::res://Asset/2. Enemy/BF2/basilisk-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+man_eating_plant.tres::Resource/Resource::4486476616262872565::1743571614::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://b0ghsvkwsd8d::::res://Asset/2. Enemy/BF2/man_eating_plant-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+::res://Enemy/Resources/BF3/::1743577591
+crown_bug.tres::Resource/Resource::1332712783244553657::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres<>uid://cdve3dl46kfaf::::res://Asset/2. Enemy/BF3/crown_bug-pixel.png
+ghost.tres::Resource/Resource::4541169121859654408::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://dsklep86woygh::::res://Asset/2. Enemy/BF3/ghost-pixel.png<>uid://dyw35bsx4jwpe::::res://PickUp Items/Resources/Coins/GoldCoin.tres
+moving_golden_armor.tres::Resource/Resource::2212367539196761092::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://b1dhet4dk2q3f::::res://Asset/2. Enemy/BF3/moving_golden_armor-pixel.png<>uid://dyw35bsx4jwpe::::res://PickUp Items/Resources/Coins/GoldCoin.tres
+treasure_bug.tres::Resource/Resource::6308332507833506762::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres<>uid://bbvspbk1gmbmk::::res://Asset/2. Enemy/BF3/treasure_bug-pixel.png
+walking_armor.tres::Resource/Resource::6697442473083011300::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://dy6orpe0e24n8::::res://Asset/2. Enemy/BF3/moving_armor-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+::res://Enemy/Resources/BF4/::1743577591
+bladefish.tres::Resource/Resource::5999071403729326443::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://c2fhetqse28ef::::res://Asset/2. Enemy/BF4/bladefish-pixel.png<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres
+kraken.tres::Resource/Resource::6945312144612651475::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://css8pp28wo14t::::res://Asset/2. Enemy/BF4/kraken-pixel.png<>uid://dyw35bsx4jwpe::::res://PickUp Items/Resources/Coins/GoldCoin.tres
+::res://Enemy/Resources/BF5/::1743577607
+frog.tres::Resource/Resource::1326270991534326080::1743577591::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://b2ubdtk8ocdsw::::res://PickUp Items/Resources/Coins/SilverCoin.tres<>uid://1esxi4kjlu70::::res://Asset/2. Enemy/BF5/frog-pixel.png
+red_dragon.tres::Resource/Resource::1238507813947756082::1743577607::0::1::::<><>::res://Enemy/Resources/EnemyProperty.gd<>uid://ckdr1un20qd70::::res://Asset/2. Enemy/BF5/red_dragon-pixel.png
+::res://Equipment Items/::1742367946
+Item.gd::GDScript::-1::1742367946::0::1::::Item<>Resource<>::
+::res://Equipment Items/PassiveItem/::1743568243
+PassiveItem.gd::GDScript::-1::1743568243::0::1::::PassiveItem<>Item<>::
+PassiveSlot.gd::GDScript::-1::1742106923::0::1::::<>PanelContainer<>::
+PassiveSlot.tscn::PackedScene::6710492462022197386::1742279114::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveSlot.gd
+::res://Equipment Items/PassiveItem/PassiveItem Stats/::1743518609
+Stats.gd::GDScript::-1::1743518609::0::1::::Stats<>Resource<>::
+::res://Equipment Items/PassiveItem/Resources/::1743607253
+Area.tres::Resource/Resource::433562373829720656::1743519917::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://cnld38avrcvc0::::res://Asset/11. Passive Item/Area.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+Critical_Damage.tres::Resource/Resource::6296217031912692617::1743519917::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://ce0mwashqrrrb::::res://Asset/11. Passive Item/Critical.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+Magnet.tres::Resource/Resource::8126255974490318488::1743519928::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://b5tmxqruswc3w::::res://Asset/11. Passive Item/Magnet.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+Normal_Damage.tres::Resource/Resource::6413002418941219454::1743518910::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://cj67k1d2xxrf4::::res://Asset/11. Passive Item/Normal.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+Speed.tres::Resource/Resource::462710821905890920::1743607253::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://dt0m4xbbqlfev::::res://Asset/11. Passive Item/Speed.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+XP_growth.tres::Resource/Resource::3235606913775489738::1743434097::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem.gd<>uid://db6sapncgjk0::::res://Asset/11. Passive Item/XP_Growth.png<>res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd
+::res://Equipment Items/Special Weapon/::1743673117
+SpecialWeapon.gd::GDScript::-1::1743525001::0::1::::SpecialWeapon<>Item<>::
+SpecialWeaponSlot.gd::GDScript::-1::1743673117::0::1::::<>PanelContainer<>::
+SpecialWeaponSlot.tscn::PackedScene::7321556533692615347::1743514199::0::1::::<><>::res://Equipment Items/Special Weapon/SpecialWeaponSlot.gd
+::res://Equipment Items/Special Weapon/Chilchuck/::1741879603
+::res://Equipment Items/Special Weapon/Laios/::1743525529
+LaiosSpecialWeapon.gd::GDScript::-1::1743525529::0::1::::LaiosSpecialWeapon<>SpecialWeapon<>::
+MonsterBodySlam.gd::GDScript::-1::1741851481::0::1::::<>Area2D<>::
+MonsterBodySlam.tscn::PackedScene::5301226927382488127::1742279114::0::1::::<><>::res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.gd<>uid://cbwruxkjm2jsh::::res://Asset/7. Weapon/laios_special_weapon.png
+::res://Equipment Items/Special Weapon/Laios/Resources/::1743517979
+LaiosSpecialWeapon.tres::Resource/Resource::1244716041548341438::1743517979::0::1::::<><>::uid://chr7oyrwevqtr::::res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.tscn<>uid://chwkpb2fivev::::res://Equipment Items/Special Weapon/Marcille/Explosion.tscn<>res://Equipment Items/Special Weapon/Laios/LaiosSpecialWeapon.gd<>uid://25uxqgxlvywp::::res://Asset/4. Character/Laios Touden/laios_cropped.png
+::res://Equipment Items/Special Weapon/Marcille/::1743525905
+Explosion.gd::GDScript::-1::1741846231::0::1::::<>Area2D<>::
+Explosion.tscn::PackedScene::156182753963227937::1742102605::0::1::::<><>::res://Equipment Items/Special Weapon/Marcille/Explosion.gd<>uid://b8llrr5djyfap::::res://Asset/7. Weapon/marcille_special_weapon.png
+MarcilleSpecialWeapon.gd::GDScript::-1::1743525905::0::1::::MarcilleSpecialWeapon<>SpecialWeapon<>::
+::res://Equipment Items/Special Weapon/Marcille/Resources/::1743518392
+MarcilleSpecialWeapon.tres::Resource/Resource::577192447087831701::1743518392::0::1::::<><>::uid://chwkpb2fivev::::res://Equipment Items/Special Weapon/Marcille/Explosion.tscn<>uid://chr7oyrwevqtr::::res://Equipment Items/Special Weapon/Laios/MonsterBodySlam.tscn<>res://Equipment Items/Special Weapon/Marcille/MarcilleSpecialWeapon.gd<>uid://60uekvb63ytw::::res://Asset/4. Character/Marcille Donato/marcille_cropped.png
+::res://Equipment Items/Special Weapon/Sensi/::1741877701
+::res://Equipment Items/Weapon/::1743673126
+DamagePopUp.gd::GDScript::-1::1743592302::0::1::::<>Label<>::
+DamagePopUp.tscn::PackedScene::8579696406487015743::1743673126::0::1::::<><>::res://Equipment Items/Weapon/DamagePopUp.gd<>uid://ceodpvgjntrsf::::res://Asset/6. Font/DOSGothic.ttf
+Slot.gd::GDScript::-1::1742220774::0::1::::<>PanelContainer<>::
+Slot.tscn::PackedScene::5212700145181865423::1742279114::0::1::::<><>::res://Equipment Items/Weapon/Slot.gd
+Weapon.gd::GDScript::-1::1743573272::0::1::::Weapon<>Item<>::
+::res://Equipment Items/Weapon/Chilchuck/::1743673126
+Arrow.gd::GDScript::-1::1743573696::0::1::::<>Area2D<>::
+Arrow.tscn::PackedScene::978603280039413935::1743673126::0::1::::<><>::res://Equipment Items/Weapon/Chilchuck/Arrow.gd<>uid://cbo74hndwcvmv::::res://Asset/7. Weapon/chilchuk_weapon.png
+ArrowShot.gd::GDScript::-1::1743573506::0::1::::ArrowShot<>Weapon<>::
+::res://Equipment Items/Weapon/Chilchuck/Resources/::1743592652
+ChilchuckWeapon.tres::Resource/Resource::8501174005768676796::1743592652::0::1::::<><>::uid://n7bpnysm0wtj::::res://Equipment Items/Weapon/Chilchuck/Arrow.tscn<>uid://c4t5gee7u01o5::::res://Equipment Items/Weapon/Marcille/Projectile.tscn<>res://Equipment Items/Weapon/Chilchuck/ArrowShot.gd<>uid://bjshk0h83ajwh::::res://Equipment Items/Weapon/Laios/SlashArea.tscn<>uid://dcmmvdw16ms53::::res://Asset/4. Character/ChilChuk/chilchuk_cropped.png<>res://Equipment Items/Weapon/Weapon Upgrades/ArrowUpgrade.gd<>uid://di6awh2vy6ckk::::res://Equipment Items/Weapon/Sensi/SlashArea.tscn
+::res://Equipment Items/Weapon/Laios/::1743574414
+SlashArea.gd::GDScript::-1::1743574414::0::1::::<>Area2D<>::
+SlashArea.tscn::PackedScene::3055723278331064759::1743514199::0::1::::<><>::res://Equipment Items/Weapon/Laios/SlashArea.gd<>uid://dxajbvomv75lc::::res://Asset/7. Weapon/laios_weapon.png
+Sword.gd::GDScript::-1::1743573658::0::1::::Sword<>Weapon<>::
+::res://Equipment Items/Weapon/Laios/Resources/::1743592652
+LaiosWeapon.tres::Resource/Resource::4456188079761456757::1743592652::0::1::::<><>::uid://n7bpnysm0wtj::::res://Equipment Items/Weapon/Chilchuck/Arrow.tscn<>uid://bjshk0h83ajwh::::res://Equipment Items/Weapon/Laios/SlashArea.tscn<>uid://c4t5gee7u01o5::::res://Equipment Items/Weapon/Marcille/Projectile.tscn<>res://Equipment Items/Weapon/Laios/Sword.gd<>uid://di6awh2vy6ckk::::res://Equipment Items/Weapon/Sensi/SlashArea.tscn<>uid://25uxqgxlvywp::::res://Asset/4. Character/Laios Touden/laios_cropped.png<>res://Equipment Items/Weapon/Weapon Upgrades/SwordUpgrade.gd
+::res://Equipment Items/Weapon/Marcille/::1743597953
+CircularWeapon.gd::GDScript::-1::1743597953::0::1::::Circular<>Weapon<>::
+Projectile.gd::GDScript::-1::1743574424::0::1::::<>Area2D<>::
+Projectile.tscn::PackedScene::6849373452516991978::1743514199::0::1::::<><>::res://Equipment Items/Weapon/Marcille/Projectile.gd<>uid://dnwif5fsrmf3u::::res://Asset/7. Weapon/marcille_weapon.png
+::res://Equipment Items/Weapon/Marcille/Resources/::1743609103
+MarcilleWeapon.tres::Resource/Resource::4959725269503617026::1743609103::0::1::::<><>::uid://n7bpnysm0wtj::::res://Equipment Items/Weapon/Chilchuck/Arrow.tscn<>uid://60uekvb63ytw::::res://Asset/4. Character/Marcille Donato/marcille_cropped.png<>uid://bjshk0h83ajwh::::res://Equipment Items/Weapon/Laios/SlashArea.tscn<>uid://c4t5gee7u01o5::::res://Equipment Items/Weapon/Marcille/Projectile.tscn<>res://Equipment Items/Weapon/Marcille/CircularWeapon.gd<>uid://di6awh2vy6ckk::::res://Equipment Items/Weapon/Sensi/SlashArea.tscn<>res://Equipment Items/Weapon/Weapon Upgrades/CircularUpgrade.gd
+::res://Equipment Items/Weapon/Sensi/::1743597958
+Axe.gd::GDScript::-1::1743597958::0::1::::Axe<>Weapon<>::
+SlashArea.gd::GDScript::-1::1743574437::0::1::::<>Area2D<>::
+SlashArea.tscn::PackedScene::7784808208385930302::1743516380::0::1::::<><>::uid://b6lxp0fibwcu3::::res://Asset/7. Weapon/sensi_weapon.png<>res://Equipment Items/Weapon/Sensi/SlashArea.gd
+::res://Equipment Items/Weapon/Sensi/Resources/::1743606752
+SensiWeapon.tres::Resource/Resource::8367607617321229430::1743606752::0::1::::<><>::uid://n7bpnysm0wtj::::res://Equipment Items/Weapon/Chilchuck/Arrow.tscn<>uid://bjshk0h83ajwh::::res://Equipment Items/Weapon/Laios/SlashArea.tscn<>uid://c4t5gee7u01o5::::res://Equipment Items/Weapon/Marcille/Projectile.tscn<>res://Equipment Items/Weapon/Sensi/Axe.gd<>uid://di6awh2vy6ckk::::res://Equipment Items/Weapon/Sensi/SlashArea.tscn<>uid://dmgulg3m2rvqn::::res://Asset/4. Character/Sensi/sensi_cropped.png<>res://Equipment Items/Weapon/Weapon Upgrades/AxeUpgrade.gd
+::res://Equipment Items/Weapon/Weapon Upgrades/::1742108313
+ArrowUpgrade.gd::GDScript::-1::1741763529::0::1::::ArrowUpgrade<>Upgrade<>::
+AxeUpgrade.gd::GDScript::-1::1742107931::0::1::::AxeUpgrade<>Upgrade<>::
+CircularUpgrade.gd::GDScript::-1::1741770409::0::1::::CircularUpgrade<>Upgrade<>::
+SwordUpgrade.gd::GDScript::-1::1742108313::0::1::::SwordUpgrade<>Upgrade<>::
+Upgrade.gd::GDScript::-1::1741504998::0::1::::Upgrade<>Resource<>::
+::res://Linux Final Result/::1743609126
+::res://MainMenu/::1743673126
+Button.gd::GDScript::-1::1743523001::0::1::::<>Button<>::
+CharacterList.gd::GDScript::-1::1743608579::0::1::::<>GridContainer<>::
+MainMenu.gd::GDScript::-1::1743522929::0::1::::<>Control<>::
+MainMenu.tscn::PackedScene::3511683375984651482::1743673126::0::1::::<><>::res://MainMenu/CharacterList.gd<>res://MainMenu/MainMenu.gd<>uid://ceodpvgjntrsf::::res://Asset/6. Font/DOSGothic.ttf<>uid://v0w2ndowp2fq::::res://Asset/1. Title Image/title.png<>uid://dy4jwphep07my::::res://Asset/5. Audio/button_click.mp3<>uid://b8d6pkadcpl4u::::res://Player/CharacterSlot.tscn<>res://MainMenu/Button.gd
+::res://PickUp Items/::1742661631
+Pickups.gd::GDScript::-1::1742661631::0::1::::<>Area2D<>::
+Pickups.tscn::PackedScene::9129399798277202932::1742103682::0::1::::<><>::res://PickUp Items/Pickups.gd
+::res://PickUp Items/Resources/::1743521108
+Coin.gd::GDScript::-1::1742135061::0::1::::Coin<>Pickups<>::
+PickupItemResource.gd::GDScript::-1::1743521108::0::1::::Pickups<>Resource<>::
+::res://PickUp Items/Resources/Coins/::1742661565
+GoldCoin.tres::Resource/Resource::8890964340009981138::1742661565::0::1::::<><>::uid://cr6obsv40qywx::::res://Asset/9. PickUp Items/GoldCoin.png<>res://PickUp Items/Resources/Coin.gd<>uid://c2r64kp1fqwdf::::res://Asset/5. Audio/Coin.wav
+SilverCoin.tres::Resource/Resource::4322874106285509398::1742661565::0::1::::<><>::uid://xdjbp33s4pav::::res://Asset/9. PickUp Items/SilverCoin.png<>res://PickUp Items/Resources/Coin.gd<>uid://c2r64kp1fqwdf::::res://Asset/5. Audio/Coin.wav
+::res://Player/::1743673291
+Button_ClearBoard_Return.gd::GDScript::-1::1742377803::0::1::::<>Button<>::
+Button_Return.gd::GDScript::-1::1743592302::0::1::::<>Button<>::
+CharacterSlot.gd::GDScript::-1::1742276861::0::1::::<>Panel<>::
+CharacterSlot.tscn::PackedScene::4710755196067766546::1743407204::0::1::::<><>::res://Player/CharacterSlot.gd
+Player.gd::GDScript::-1::1743610330::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::4817303386785590689::1743673291::0::1::::<><>::res://Player/Player.gd<>uid://d3fajbfni4vf8::::res://Asset/4. Character/Marcille Donato/Sprite/IDLE/marcille_idle.png<>uid://b3n04wsi1pbey::::res://Asset/5. Audio/Option.mp3<>uid://b82xyevb85xeb::::res://Asset/10. GUI/GUI_Panel.png<>uid://dd2ftxj1pcxw0::::res://Asset/5. Audio/win.mp3<>uid://cgjcn60aw7k1t::::res://Equipment Items/Weapon/Slot.tscn<>uid://n3uov4ebrhv8::::res://Asset/4. Character/Marcille Donato/Sprite/RUNNING/marcille_running.png<>uid://dpqgmymb0vm32::::res://Asset/5. Audio/game_over.mp3<>uid://ceodpvgjntrsf::::res://Asset/6. Font/DOSGothic.ttf<>res://Utility/Option/Options.gd<>uid://c2uu3h8nh60c1::::res://Equipment Items/PassiveItem/PassiveSlot.tscn<>uid://4vu2tfokjjts::::res://Asset/3. Food/BF1/BF1_FOOD_1.png<>uid://c2o05s27yej3o::::res://Asset/10. GUI/Crying_Marcille_Stamp_Outline_White.png<>uid://cyainagstrfbe::::res://Asset/3. Food/Boundary.png<>uid://cvhri0im6wgun::::res://Asset/3. Food/NameTag.png<>res://Player/Button_Return.gd<>res://Player/Button_ClearBoard_Return.gd<>uid://dcku74gb8vual::::res://Equipment Items/Special Weapon/SpecialWeaponSlot.tscn<>uid://dygghqc8j53ik::::res://Asset/10. GUI/GUI_Frame.png<>uid://53qmp8rjydvn::::res://Asset/10. GUI/HealthBar_Stomach_UIpng.png
+__README.txt::TextFile::-1::1741759502::0::1::::<><>::
+::res://Player/Resources/::1743592652
+1_LaiosCharacter.tres::Resource/Resource::6176150242608792412::1743592652::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd<>uid://c14jmvv31eols::::res://Asset/4. Character/Laios Touden/laios_full.png<>res://Player/Resources/Character.gd<>uid://b4qu1chdfhibl::::res://Equipment Items/Weapon/Laios/Resources/LaiosWeapon.tres
+2_MarcilleCharacter.tres::Resource/Resource::868278080820609114::1743592652::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd<>uid://cct6q3ewhqn84::::res://Asset/4. Character/Marcille Donato/marcille_full.png<>res://Player/Resources/Character.gd<>uid://ccwr7k37vaxgk::::res://Equipment Items/Weapon/Marcille/Resources/MarcilleWeapon.tres
+3_ChilchuckCharacter.tres::Resource/Resource::295705941793225583::1743592652::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd<>uid://blxppebk3tvd5::::res://Asset/4. Character/ChilChuk/chilchuk_full.png<>res://Player/Resources/Character.gd<>uid://dtebdgqha06eq::::res://Equipment Items/Weapon/Chilchuck/Resources/ChilchuckWeapon.tres
+4_SensiCharacter.tres::Resource/Resource::2656856857425781432::1743592652::0::1::::<><>::res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd<>uid://bv4w0ccj2ok35::::res://Asset/4. Character/Sensi/sensi_full.png<>res://Player/Resources/Character.gd<>uid://drhljl3a465bu::::res://Equipment Items/Weapon/Sensi/Resources/SensiWeapon.tres
+Character.gd::GDScript::-1::1743569933::0::1::::Character<>Resource<>::
+::res://Shader/::1743423082
+::res://Shader/EnemyShader/::1741749931
+Elite_Monster_Rainbow_Outline.gdshader::Shader::-1::1741749523::0::1::::<><>::
+Elite_Monster_Rainbow_Outline.tres::ShaderMaterial::1881214890618016350::1740911431::0::1::::<><>::res://Shader/EnemyShader/Elite_Monster_Rainbow_Outline.gdshader
+::res://Shader/StageShader/::1743673291
+Background_BF1.gdshader::Shader::-1::1743673291::0::1::::<><>::
+Background_BF1.tres::ShaderMaterial::3966783236448799649::1743673117::0::1::::<><>::
+::res://Shader/Weapon/::1743673291
+SpecialWeapon.gdshader::Shader::-1::1743673291::0::1::::<><>::
+SpecialWeapon.tres::ShaderMaterial::1254973289471090454::1743428950::0::1::::<><>::res://Shader/Weapon/SpecialWeapon.gdshader
+::res://Stage/::1743673291
+Background_BF1.tscn::PackedScene::4556511117530916648::1742102605::0::1::::<><>::uid://cm35qxdx4wxdp::::res://Asset/8. Background/BF1_map/Result/BF1_map.png
+Background_BF2.tscn::PackedScene::8348835084648981466::1742102605::0::1::::<><>::uid://betklwhl6ab20::::res://Asset/8. Background/BF2_map/Result/BF2_map.png<>uid://ck8ruydrf5ns1::::res://Asset/8. Background/BF2_map/Result/BF2_Shadow.png
+Background_BF3.tscn::PackedScene::5101596406834202271::1742102605::0::1::::<><>::uid://dx4q1uswj1krl::::res://Asset/8. Background/BF3_map/Result/BF3_map.png
+Background_BF4.tscn::PackedScene::186023810319351667::1742102673::0::1::::<><>::uid://bba1irewy1fvl::::res://Asset/8. Background/BF4_map/Result/BF4_map.png<>uid://bf8l3q2jo4psk::::res://Asset/8. Background/BF4_map/Result/Water_map.png
+Background_BF5.tscn::PackedScene::3148374230471164913::1742191283::0::1::::<><>::uid://3r0eu82uvg8e::::res://Asset/8. Background/BF5_map/Result/BF5_map.png
+Stage.gd::GDScript::-1::1743673291::0::1::::<>Node2D<>::
+Stage.tscn::PackedScene::6537814037209182060::1743673126::0::1::::<><>::uid://cavsjvdul058p::::res://Player/Player.tscn<>res://Stage/Stage.gd<>uid://cevr0k3lwrpfp::::res://Enemy/Spawner.tscn<>uid://di0nesqm3lg8q::::res://Asset/5. Audio/background.mp3
+::res://Utility/::1742660467
+::res://Utility/Option/::1743608055
+Options.gd::GDScript::-1::1743608055::0::1::::<>VBoxContainer<>::
+OptionSlot.gd::GDScript::-1::1743579736::0::1::::<>NinePatchRect<>::
+OptionSlot.tscn::PackedScene::5397727928783159086::1743514199::0::1::::<><>::uid://60uekvb63ytw::::res://Asset/4. Character/Marcille Donato/marcille_cropped.png<>res://Utility/Option/OptionSlot.gd<>uid://ceodpvgjntrsf::::res://Asset/6. Font/DOSGothic.ttf<>uid://dygghqc8j53ik::::res://Asset/10. GUI/GUI_Frame.png
+::res://Utility/Option/FoodIcon/::1742457335
+FoodIcon.gd::GDScript::-1::1742457335::0::1::::FoodIcon<>Resource<>::
+::res://Utility/Option/FoodIcon/Resources/::1742457320
+::res://Utility/Option/FoodIcon/Resources/BF1/::1742457287
+BF1_FOOD_1.tres::Resource/Resource::7174081708605425368::1742456551::0::1::::<><>::uid://4vu2tfokjjts::::res://Asset/3. Food/BF1/BF1_FOOD_1.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+::res://Utility/Option/FoodIcon/Resources/BF2/::1742457295
+BF2_FOOD_1.tres::Resource/Resource::2838929845495082377::1742456605::0::1::::<><>::uid://vlm2mllg21m0::::res://Asset/3. Food/BF2/BF2_FOOD_1.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF2_FOOD_2.tres::Resource/Resource::9216845164694316683::1742456648::0::1::::<><>::uid://biycs7dgls1a2::::res://Asset/3. Food/BF2/BF2_FOOD_2.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF2_FOOD_3.tres::Resource/Resource::7203977746502300755::1742456918::0::1::::<><>::uid://caamb28m76qso::::res://Asset/3. Food/BF2/BF2_FOOD_3.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF2_FOOD_4.tres::Resource/Resource::5972770383471248007::1742456944::0::1::::<><>::uid://cj0ctp6xgkrfo::::res://Asset/3. Food/BF2/BF2_FOOD_4.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+::res://Utility/Option/FoodIcon/Resources/BF3/::1742457305
+BF3_FOOD_1.tres::Resource/Resource::6134740138328985172::1742456976::0::1::::<><>::uid://crpc57l3h12o8::::res://Asset/3. Food/BF3/BF3_FOOD_1.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF3_FOOD_2.tres::Resource/Resource::4736398454996296254::1742457000::0::1::::<><>::uid://dhoxhv34650l1::::res://Asset/3. Food/BF3/BF3_FOOD_2.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF3_FOOD_3.tres::Resource/Resource::1157790982939813622::1742457030::0::1::::<><>::uid://dx5234yuuwmmh::::res://Asset/3. Food/BF3/BF3_FOOD_3.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF3_FOOD_4.tres::Resource/Resource::1222474402031863597::1742457058::0::1::::<><>::uid://drnisa2gmhfxc::::res://Asset/3. Food/BF3/BF3_FOOD_4.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+::res://Utility/Option/FoodIcon/Resources/BF4/::1742457313
+BF4_FOOD_1.tres::Resource/Resource::8207579084573770988::1742457120::0::1::::<><>::uid://18fcfo8i015p::::res://Asset/3. Food/BF4/BF4_FOOD_1.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF4_FOOD_2.tres::Resource/Resource::8507764716473265226::1742457140::0::1::::<><>::uid://bgtt3b4vipdco::::res://Asset/3. Food/BF4/BF4_FOOD_2.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF4_FOOD_3.tres::Resource/Resource::1723217234168541621::1742457164::0::1::::<><>::uid://bu735rkgoqiki::::res://Asset/3. Food/BF4/BF4_FOOD_3.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF4_FOOD_4.tres::Resource/Resource::5628913409587075306::1742457189::0::1::::<><>::uid://di2ck3qhda4k2::::res://Asset/3. Food/BF4/BF4_FOOD_4.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+::res://Utility/Option/FoodIcon/Resources/BF5/::1742457320
+BF5_FOOD_1.tres::Resource/Resource::4271409573969614940::1742457242::0::1::::<><>::uid://bwk8io0hvbkel::::res://Asset/3. Food/BF5/BF5_FOOD_1.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+BF5_FOOD_2.tres::Resource/Resource::6730465751927595555::1742457270::0::1::::<><>::uid://c4arvkfh1wftm::::res://Asset/3. Food/BF5/BF5_FOOD_2.png<>res://Utility/Option/FoodIcon/FoodIcon.gd
+::res://Utility/Persistence/::1743514199
+Persistence.gd::GDScript::-1::1742280054::0::1::::<>Node2D<>::
+Persistence.tscn::PackedScene::551240227780025818::1743514199::0::1::::<><>::res://Utility/Persistence/Persistence.gd
+::res://Utility/SoundManager/::1743673126
+SoundManager.gd::GDScript::-1::1742661353::0::1::::<>Node2D<>::
+SoundManager.tscn::PackedScene::3607093299238655671::1743673126::0::1::::<><>::res://Utility/SoundManager/SoundManager.gd
+::res://Web Final Result/::1743610369
+index.png::CompressedTexture2D::5948276636809665742::1743610358::1743610358::1::::<><>::
+::res://Web Result For Low Spec PC/::1743673328
+index.png::CompressedTexture2D::1133951964423844452::1743673328::1743673328::1::::<><>::

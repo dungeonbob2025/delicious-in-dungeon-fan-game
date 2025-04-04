@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0e73vmhi8wfc"]
+
+[ext_resource type="PackedScene" uid="uid://cavsjvdul058p" path="res://Player/Player.tscn" id="1_2b8ep"]
+[ext_resource type="Script" path="res://Stage/Stage.gd" id="1_ps57y"]
+[ext_resource type="PackedScene" uid="uid://cevr0k3lwrpfp" path="res://Enemy/Spawner.tscn" id="2_u3a7l"]
+[ext_resource type="AudioStream" uid="uid://di0nesqm3lg8q" path="res://Asset/5. Audio/background.mp3" id="4_ijvgy"]
+
+[node name="Stage" type="Node2D"]
+script = ExtResource("1_ps57y")
+
+[node name="Player" parent="." instance=ExtResource("1_2b8ep")]
+unique_name_in_owner = true
+position = Vector2(505, 380)
+
+[node name="Spawner" parent="." node_paths=PackedStringArray("player") instance=ExtResource("2_u3a7l")]
+player = NodePath("../Player")
+
+[node name="Timer_ChangeStage" type="Timer" parent="."]
+wait_time = 600.0
+one_shot = true
+autostart = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+process_mode = 3
+stream = ExtResource("4_ijvgy")
+autoplay = true

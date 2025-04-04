@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://rof8e4mu3bf6"]
+
+[ext_resource type="Texture2D" uid="uid://drnisa2gmhfxc" path="res://Asset/3. Food/BF3/BF3_FOOD_4.png" id="1_qax8n"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_4qp7g"]
+
+[resource]
+script = ExtResource("2_4qp7g")
+food_title = "Treasure Insect Snacks"
+food_texture = ExtResource("1_qax8n")

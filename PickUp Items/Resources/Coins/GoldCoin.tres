@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Coin" load_steps=4 format=3 uid="uid://dyw35bsx4jwpe"]
+
+[ext_resource type="Texture2D" uid="uid://cr6obsv40qywx" path="res://Asset/9. PickUp Items/GoldCoin.png" id="1_msebk"]
+[ext_resource type="Script" path="res://PickUp Items/Resources/Coin.gd" id="2_nldtt"]
+[ext_resource type="AudioStream" uid="uid://c2r64kp1fqwdf" path="res://Asset/5. Audio/Coin.wav" id="3_h7hcm"]
+
+[resource]
+script = ExtResource("2_nldtt")
+XP = 15.0
+title = "GoldCoin"
+icon = ExtResource("1_msebk")
+description = "Gold Coin. 15XP."
+sound = ExtResource("3_h7hcm")

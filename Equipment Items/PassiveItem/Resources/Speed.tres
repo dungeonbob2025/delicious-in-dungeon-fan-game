@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="PassiveItem" load_steps=7 format=3 uid="uid://gue1riy3qurw"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem.gd" id="1_yxeud"]
+[ext_resource type="Texture2D" uid="uid://dt0m4xbbqlfev" path="res://Asset/11. Passive Item/Speed.png" id="2_hyl0r"]
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="3_0g856"]
+
+[sub_resource type="Resource" id="Resource_f751b"]
+script = ExtResource("3_0g856")
+description = "Increase Speed 20%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.2
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_gxbo2"]
+script = ExtResource("3_0g856")
+description = "Increase Speed 20%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.2
+area_stats = 1.0
+magnet_stats = 1.0
+
+[sub_resource type="Resource" id="Resource_x34ll"]
+script = ExtResource("3_0g856")
+description = "Increase Speed 20%"
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.2
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("1_yxeud")
+upgrades = Array[ExtResource("3_0g856")]([SubResource("Resource_f751b"), SubResource("Resource_gxbo2"), SubResource("Resource_x34ll")])
+title = "Speed"
+texture = ExtResource("2_hyl0r")

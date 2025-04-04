@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Character" load_steps=6 format=3 uid="uid://ct81j6yveheye"]
+
+[ext_resource type="Script" path="res://Equipment Items/PassiveItem/PassiveItem Stats/Stats.gd" id="1_wgg40"]
+[ext_resource type="Texture2D" uid="uid://c14jmvv31eols" path="res://Asset/4. Character/Laios Touden/laios_full.png" id="2_8m6xp"]
+[ext_resource type="Script" path="res://Player/Resources/Character.gd" id="3_da362"]
+[ext_resource type="Resource" uid="uid://b4qu1chdfhibl" path="res://Equipment Items/Weapon/Laios/Resources/LaiosWeapon.tres" id="4_612bq"]
+
+[sub_resource type="Resource" id="Resource_6odwc"]
+script = ExtResource("1_wgg40")
+description = ""
+XP_growth_stats = 1.0
+normal_damage_stats = 1.0
+critical_damage_stats = 1.0
+speed_stats = 1.0
+area_stats = 1.0
+magnet_stats = 1.0
+
+[resource]
+script = ExtResource("3_da362")
+character_title = "Laios"
+character_icon = ExtResource("2_8m6xp")
+character_description = "Close-range attacks in four directions."
+animation_name = ""
+base_stats = SubResource("Resource_6odwc")
+starting_weapon = ExtResource("4_612bq")

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FoodIcon" load_steps=3 format=3 uid="uid://dthhv3ap2dwnq"]
+
+[ext_resource type="Texture2D" uid="uid://bgtt3b4vipdco" path="res://Asset/3. Food/BF4/BF4_FOOD_2.png" id="1_v2pco"]
+[ext_resource type="Script" path="res://Utility/Option/FoodIcon/FoodIcon.gd" id="2_62h04"]
+
+[resource]
+script = ExtResource("2_62h04")
+food_title = "Grilled Kelpie"
+food_texture = ExtResource("1_v2pco")
